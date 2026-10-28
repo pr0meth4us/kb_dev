@@ -242,3 +242,14 @@ Report: `wiki/lint-reports/2026-10-28-full-lint.md`.
 - Figures and Khmer terms are consistent.
 - Open: conflicts #2, #5 and #7; the registered-micro inference.
 Neo4j: synced after lint.
+
+## [2026-10-28] query | syntheses and Q&A test set
+
+The user asked for useful syntheses and questions and answers. Filed in `wiki/queries/`:
+- `which-egd-support-can-i-get`: an eligibility matrix by user type.
+- `da-grant-worked-examples`: 7 scenarios, plus a table of common misunderstandings.
+- `enterprise-journey-timeline`: every official time limit in order, and where none is stated.
+- `egd-policy-lineage`: the documents behind EGD from 2021 to 2026, and how the description changed.
+- `chatbot-qa-test-set` (internal): 45 questions across basics, DAA and training, the grant, DSPs and trainers, contacts and fallback, access control, and the Khmer language rules. Each has must-include and must-not columns.
+
+All facts are drawn from existing pages; no new sources.

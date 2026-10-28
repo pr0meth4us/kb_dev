@@ -65,6 +65,14 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 - [[source-gaps]] — Documents and facts the wiki needs but `raw/` doesn't contain.
 - [[source-conflicts]] — Places where the sources disagree, the interim answer the wiki gives, and what would settle each one.
 
+## queries/
+
+- [[which-egd-support-can-i-get]] — A synthesis: for each kind of user, which EGD services apply, under what conditions, and where to start.
+- [[da-grant-worked-examples]] — Seven worked scenarios showing how the DA Grant rules apply: amounts, top-ups, multiple vouchers, ineligible items, expiry, stopping early and reimbursement.
+- [[enterprise-journey-timeline]] — One timeline from first login to reimbursement, with every official duration and time limit in order, and the gaps where no time is stated.
+- [[egd-policy-lineage]] — A timeline of the documents behind EGD, from the 2021 policy framework to the 2026 chatbot knowledge base, showing what each added and how the programme's description changed.
+- [[chatbot-qa-test-set]] [INTERNAL] — A test set for the EGD Chatbot: 45 questions with the expected answer, the must-include facts, and what the bot must not say.
+
 ## internal/
 
 - [[platform-approval-workflow]] [INTERNAL] — The five review stages an EGD Platform application passes through (Admin, Technical, Manager, Director, Finance), the possible decisions, and who has authority to approve, return or reject.
