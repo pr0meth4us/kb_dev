@@ -37,6 +37,25 @@ Written 2026-10-28. Status: **draft**. The knowledge base and the tone both awai
 - **Authorised staff** get both. For the Policy Research Office, give only its general role and refer staff to the responsible person (`policy-research-office`).
 - Filter by audience **in retrieval**, not only in the prompt.
 
+### 3a. Retrieval through the MCP server
+
+The wiki is served by `mcp_server/server.py` (MCP endpoint `/mcp`). Access control is enforced by the **token**, not by the prompt:
+
+| User (checked on every message) | Connect with | Sees |
+|---|---|---|
+| Anyone not confirmed as authorised EGD staff | `MCP_AUTH_TOKEN_PUBLIC` | public pages only |
+| Authorised EGD staff | `MCP_AUTH_TOKEN_STAFF` | public and internal pages |
+
+Never give the staff token to a session that hasn't passed the staff check. Internal pages are invisible to the public token: they aren't returned, listed or shown as related, and `get_page` reports them as not found.
+
+**Tools:**
+- `search_wiki(query, top_k)`: semantic search; the default first call. The pages are in English, so query in English even when the user writes Khmer.
+- `keyword_search(keyword, limit)`: exact words, codes and figures, English or Khmer (Khmer spelling variants are normalised).
+- `get_page(slug)`: one full page. Use `official-figures` for amounts and times, `contacts` for the fallback, and `glossary` for Khmer terms.
+- `list_pages(page_type)`: the catalogue.
+
+Results carry `[[slug]]` links and source citations for maintainers. **Don't show slugs, wikilinks, "Status: draft" or source paths to users** (§1).
+
 ## 4. Language
 
 - Reply in the user's language, Khmer or English. **Never mix** the two in one reply (Brief §1.3.2).

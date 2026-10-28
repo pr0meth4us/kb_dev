@@ -257,3 +257,15 @@ All facts are drawn from existing pages; no new sources.
 ## [2026-10-28] note | Part 4 decisions set aside
 
 The user said to ignore the four Project Brief Part 4 management decisions (Policy Research Office scope, tone, widget, KB approval). They are no longer raised as open items. `pending-decisions` is kept as a record; page statuses are unchanged.
+
+## [2026-10-28] setup | MCP server for the chatbot
+
+Built `mcp_server/` (server.py, modal_app.py, requirements.txt, smoke_test.py), adapted from the MSME server.
+- **Audience:** chosen by token (public vs staff), not by tool argument.
+- **Scope:** every query is limited to :EGDPage; no raw-Cypher tool.
+- **Khmer:** keyword search folds Khmer spelling variants.
+- **Schemas:** Gemini-safe.
+- **Local test:** 22/22 checks passed, including that the public token can't reach any internal page by search, keyword, slug, listing or related links.
+- **Not deployed to Modal.**
+
+`app-integration/egd-chatbot-instruction.md` gains §3a (token mapping and tool use). `.env.example` gains the two token variables.

@@ -401,10 +401,27 @@ wiki on 2026-10-28 and re-namespaced:
 - **Secrets:** `.env` (from `.env.example`) holds `NEO4J_URI`,
   `NEO4J_USERNAME`, `NEO4J_PASSWORD` and optionally `NEO4J_DATABASE`.
   Never print or commit `.env`.
-- No MCP server yet. If one is added, copy the MSME `mcp_server/`,
-  re-namespace it, enforce `audience` filtering server-side, and keep tool
-  schemas Gemini-safe (plain string and integer arguments, no `anyOf`,
-  `null` or `additionalProperties`).
+- **MCP server** (`mcp_server/`, built 2026-10-28 from the MSME server):
+  - **Tools:** `search_wiki` (vector index plus one-hop related pages),
+    `keyword_search` (Khmer ្ត/្ដ and quote folding), `get_page`,
+    `list_pages`.
+  - **Scope:** everything is limited to `:EGDPage`. There is deliberately
+    **no raw-Cypher tool**: it would bypass the audience filter and could
+    read the other wikis.
+  - **Audience by token:** `MCP_AUTH_TOKEN_PUBLIC` sees public pages only;
+    `MCP_AUTH_TOKEN_STAFF` sees all. The middleware stores the audience in
+    the request scope and tools read it via `Context`. A context variable
+    doesn't reach tool tasks in the stateless SDK; an unknown audience falls
+    back to public.
+  - **Schemas:** Gemini-safe (plain string and integer arguments, no
+    `anyOf`, `null` or `additionalProperties`).
+  - **Tests:** `mcp_server/smoke_test.py`, 22 checks including isolation;
+    all passed locally on 2026-10-28. Re-run after server changes. The
+    server needs Python ≥ 3.10; locally use a `uv` venv (system python3 is
+    3.9).
+  - **Deploy:** `mcp_server/modal_app.py`, app `egd-wiki-mcp`, secrets
+    `egd-neo4j` and `egd-mcp-auth`. **Not deployed yet**; deploying is the
+    user's call.
 
 ## Current state
 
