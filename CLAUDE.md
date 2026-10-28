@@ -150,6 +150,18 @@ against `raw/` as you ingest, and record it with a citation.
   go through Git LFS (`.gitattributes`); run `git lfs install` on any new
   clone. Never commit `.env`. Commit after each batch, filing and lint
   pass. Remote: `origin` = `github.com/rinabuoy/egd_kb` (pushed 2026-10-28). The user authorised pushing to it; push after each commit.
+- **`bot/`**: the EGD Telegram bot (`egd_telegram_bot.py`).
+  - **Flow:** Telegram → Gemini (`gemini-flash-lite-latest`, function
+    calling) → the MCP server.
+  - **Staff check:** every message is public unless the Telegram user ID is
+    in `EGD_STAFF_TELEGRAM_IDS`. The bot, not the model, picks the MCP
+    token.
+  - **Instructions:** the system instruction is
+    `app-integration/egd-chatbot-instruction.md`, read at start-up. Restart
+    the bot after editing it.
+  - **Testing:** `python bot/egd_telegram_bot.py --ask "…" [--staff]` asks
+    one question without Telegram.
+  - **Secrets:** `TELEGRAM_BOT_TOKEN` and `GEMINI_API_KEY` live in `.env`.
 - **This file**: the schema. Update it as conventions settle. Call out
   each schema change to the user, and keep it lean. History goes in
   `wiki/log.md`, not here.
