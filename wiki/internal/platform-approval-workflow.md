@@ -53,4 +53,6 @@ Admin → Technical → Manager → Director → Finance (grant disbursement onl
 
 **Detailed procedures** are in the official EGD Platform SOP (Brief §3.2), which is not in `raw/` ([[source-gaps]]). Don't describe stage-level steps, time limits per stage or named officers.
 
-Related: [[egd-department]], [[pending-decisions]].
+**Khmer:** the stage names have no Glossary terms; only the outcomes do (7.6–7.8).
+
+Related: [[egd-department]], [[pending-decisions]], [[egd-implementation-progress]].

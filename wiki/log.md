@@ -231,3 +231,14 @@ Judgement calls:
 - **Policy documents:** marked `current`, not draft, because they are signed government documents rather than the unapproved chatbot set.
 - **Pentagonal Strategy:** cited as an unofficial translation.
 Neo4j: synced 2026-10-28. 43 pages, 43 with embeddings, 335 LINKS_TO.
+
+## [2026-10-28] lint | full pass: 13 findings, 12 fixed
+
+Report: `wiki/lint-reports/2026-10-28-full-lint.md`.
+- 5 orphans linked.
+- 6 stale batch references removed.
+- 2 internal-content leaks removed from public pages (`glossary`, `adb-msme-digital-adoption-project`).
+- 4 stale statements fixed in `CLAUDE.md`.
+- Figures and Khmer terms are consistent.
+- Open: conflicts #2, #5 and #7; the registered-micro inference.
+Neo4j: synced after lint.

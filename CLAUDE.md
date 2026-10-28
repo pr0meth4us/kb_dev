@@ -54,7 +54,10 @@ against `raw/` as you ingest, and record it with a citation.
   (MEF)**. It is fully funded by the **Skills Development Fund (SDF)** and
   charges no enrolment fees or commissions. It also runs the ADB-funded
   project "Supporting the Adoption of Digital Technologies and Fostering
-  Innovation in MSMEs" (2024–2028).
+  Innovation in MSMEs" (2024–2028). Since January 2023 the programme has
+  been **led and coordinated by the Digital Economy and Business Committee**
+  (chaired by the MEF Minister), and TSC implements it (Program Book §4.1).
+  Pentagon 5, Side 2 of the Pentagonal Strategy names EGD.
 - **The offer:** DAA (free, about 5 minutes) → DA Training (DA1–DA6, with
   a TSC certificate) → DA Grant voucher → certified DSP solution. E-Learning
   is self-paced. Login is by **CamDigiKey**.
@@ -72,8 +75,9 @@ against `raw/` as you ingest, and record it with a citation.
   infrastructure and human resources are not eligible.
 - **The official docs disagree in places.** Record each disagreement on
   the pages concerned; don't pick a side silently.
-  - The KB says "five priority activities" and defers to the Program Book,
-    which is not in `raw/`. The Public FAQ says "three core activities".
+  - "Five priority activities" (KB, Program Book §3.3) vs "three core
+    activities" (FAQ): resolved, because they are different levels (design
+    vs enterprise services).
   - The live site (2026-10-28) shows the DAA as "coming soon". The KB
     and Brief cover only DA1–DA6, but the Glossary (4.9, 4.10) and the site
     add the Digital Technology Capacity Training and the Tourism Digital
@@ -267,9 +271,9 @@ wiki/
 - **Generate verbatim tables by script.** `wiki/glossary.md` was built from
   the source table, not retyped, so the Khmer can't drift. Rebuild it the
   same way if the Glossary changes.
-- **Missing core documents.** The KB and Brief cite the **EGD Program Book**,
-  the **EGD Platform SOP 2026** and the **EGD Progress Report 2025**. None is
-  in `raw/`. Record what depends on them as a source gap on
+- **Missing core documents.** The KB and Brief cite the **EGD Platform SOP
+  2026** and the **EGD Progress Report 2025**. Neither is in `raw/` or online.
+  The Program Book was found and filed on 2026-10-28. Record what depends on them as a source gap on
   `wiki/reference/source-gaps.md`.
 - **Use only documents in `raw/`.** If `raw/` can't settle a point, record
   a source gap. The chatbot must then answer "I don't have that
@@ -470,6 +474,5 @@ wiki on 2026-10-28 and re-namespaced:
   - The EGD website archive list, which needs Chrome connected.
   - Re-check the live site's course statuses periodically.
   - A first full lint pass to `wiki/lint-reports/`.
-- **Source gaps:** EGD Program Book, Platform SOP 2026, Progress Report
-  2025, an Internal FAQ (Brief Appendix A.2), and any 2026 edition of the
+- **Source gaps:** Platform SOP 2026, Progress Report 2025, an Internal FAQ (Brief Appendix A.2), and any 2026 edition of the
   Grant Guidebook. The Nov 2024 edition was filed on 2026-10-28.

@@ -136,7 +136,6 @@ FAQ 1.4 calls the grant "Digital Adoption Grant" in English but uses "បណ្�
 
 These terms are used in the sources but have no Glossary entry. Until the Glossary adds them, a Khmer answer has no approved term for them; flag rather than coin one.
 
-- Policy Research Office (Brief §3.3)
 - Digital Economy and Business Committee. The Program Book uses គណៈកម្មាធិការសេដ្ឋកិច្ច និង ធុរកិច្ចឌីជីថល (គ.ស.ធ.ឌ.), which is not a Glossary term.
 - Enterprise Digital Transformation Center / Enterprises Go Digital Hub. The Program Book uses មជ្ឈមណ្ឌលបរិវត្តកម្មឌីជីថលសហគ្រាស.
 - The Program Book's five priority activities and its "Digital Solution Roadmap" / "Digital Training Roadmap"
@@ -150,4 +149,3 @@ These terms are used in the sources but have no Glossary entry. Until the Glossa
 - Digital Adoption Plan and Digital Solution Package (Grant Guidebook ¶2, ¶9)
 - General Conditions of the grant (Guidebook Annex 1)
 - SaaS and CRM, which the Brief (§1.3.2) cites as examples of the "Khmer (English)" format
-- Admin, Technical, Manager, Director and Finance Review stages (Brief §3.2; internal)

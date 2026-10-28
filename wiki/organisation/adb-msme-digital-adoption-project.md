@@ -20,4 +20,3 @@ The ADB-funded project, 2024–2028, that the EGD Program is currently implement
 
 **Not in the sources:** the loan or TA number, the amount, the components and the targets. Answer questions about them with "not available" and refer to [[contacts]].
 
-The Brief (§3.1.5) also lists "ADB-TA Related Activities" (joint workshops, seminars and progress meetings with ADB technical experts) as internal progress-reporting content. That is covered on an internal page in batch 7.

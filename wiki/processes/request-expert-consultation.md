@@ -25,5 +25,5 @@ Send a message to EGD's Telegram or official Facebook Page "to receive coordinat
 
 - **Free:** consultation is one of the support features that cost nothing (FAQ 3.3).
 - **Help page name:** the FAQ's English says "EGD Help". The Khmer says "ជំនួយបន្ថែម" ("additional help") in 6.2, and "ជំនួសបន្ថែម" in 2.4, which looks like a typo for ជំនួយ. The site's closest menu item is "Support programs" at /support (web notes, 2026-10-28; not confirmed to be the same page). In Khmer answers use "ជំនួយបន្ថែម".
-- **Who gives the advice:** EGD's trainers and digital experts. Their roles are covered with DA Training in batch 3.
+- **Who gives the advice:** EGD's trainers and digital experts; see [[trainers-and-digital-experts]].
 - **Not in the sources:** response times, session format (online or in person) and any limits on the number of consultations.

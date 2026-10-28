@@ -91,7 +91,7 @@ CamDigiKey login → DAA (≈5 min, free) → DA Training (DA1–DA6) → DA Gra
 
 Pages: [[camdigikey]], [[digital-adoption-assessment]], [[da-training]], [[e-learning]], [[da-grant]], [[digital-solution-providers]].
 
-Beyond DA1–DA6, the Glossary (4.9, 4.10) defines two more training offers: the **Digital Technology Capacity Training** (door-to-door) and the **Tourism Digital Adoption Initiative in Cambodia**. The live site listed both on 2026-10-28 (web notes, low–medium confidence). The KB and Brief don't mention them. They are ingested with DA Training in batch 3.
+Beyond DA1–DA6, the Glossary (4.9, 4.10) defines two more training offers: the **Digital Technology Capacity Training** (door-to-door) and the **Tourism Digital Adoption Initiative in Cambodia**. The live site listed both on 2026-10-28 (web notes, low–medium confidence). The KB and Brief don't mention them. See [[digital-technology-capacity-training]] and [[tourism-digital-adoption-initiative]].
 
 ## Benefits for business owners (FAQ 3.1)
 
@@ -112,3 +112,8 @@ These are the Brief's public user groups (§1.2), and the KB's "Key Users" table
 ## Contact
 
 See [[contacts]].
+
+## See also
+
+- [[overview]]: the whole programme on one page.
+- [[faq-map]]: which page answers each Public FAQ question.
