@@ -253,3 +253,7 @@ The user asked for useful syntheses and questions and answers. Filed in `wiki/qu
 - `chatbot-qa-test-set` (internal): 45 questions across basics, DAA and training, the grant, DSPs and trainers, contacts and fallback, access control, and the Khmer language rules. Each has must-include and must-not columns.
 
 All facts are drawn from existing pages; no new sources.
+
+## [2026-10-28] note | Part 4 decisions set aside
+
+The user said to ignore the four Project Brief Part 4 management decisions (Policy Research Office scope, tone, widget, KB approval). They are no longer raised as open items. `pending-decisions` is kept as a record; page statuses are unchanged.

@@ -89,6 +89,9 @@ against `raw/` as you ingest, and record it with a citation.
   Office scope, chatbot tone, the website widget, and KB approval. Pages
   resting on unapproved content carry `status: draft`. Track decisions on
   `wiki/internal/pending-decisions.md`.
+  **The user said on 2026-10-28 to ignore these four decisions.** Don't
+  raise them in briefs, next steps or open-question lists. Leave the page
+  as a record only.
 
 ## Layers
 
@@ -466,8 +469,7 @@ wiki on 2026-10-28 and re-namespaced:
   - #5: the non-DA programmes;
   - #7: the Guidebook's single cap vs the $250 informal tier.
 
-  Also: the registered-micro inference; the Khmer fallback text; the four
-  Part 4 decisions.
+  Also: the registered-micro inference; the Khmer fallback text.
 - **Next:**
   - Internal sources only the EGD team can supply: Platform SOP 2026,
     Progress Report 2025, Internal FAQ.
