@@ -53,9 +53,10 @@ async def tools_list(token):
 
 async def main():
     # Auth
-    status = httpx.post(URL, json={}).status_code
+    # Generous timeout: a deployed container may be cold-starting.
+    status = httpx.post(URL, json={}, timeout=180).status_code
     check("no token -> 401", status == 401, str(status))
-    status = httpx.post(URL, json={}, headers={"Authorization": "Bearer wrong"}).status_code
+    status = httpx.post(URL, json={}, headers={"Authorization": "Bearer wrong"}, timeout=60).status_code
     check("bad token -> 401", status == 401, str(status))
 
     # Schemas are Gemini-safe and hide ctx

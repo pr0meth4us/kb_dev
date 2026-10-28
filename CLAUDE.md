@@ -420,8 +420,16 @@ wiki on 2026-10-28 and re-namespaced:
     server needs Python ≥ 3.10; locally use a `uv` venv (system python3 is
     3.9).
   - **Deploy:** `mcp_server/modal_app.py`, app `egd-wiki-mcp`, secrets
-    `egd-neo4j` and `egd-mcp-auth`. **Not deployed yet**; deploying is the
-    user's call.
+    `egd-neo4j` and `egd-mcp-auth`. **Deployed 2026-10-28** (Modal profile
+    `rinabuoy13`). Endpoint:
+    `https://rinabuoy13--egd-wiki-mcp-web.us-east.modal.run/mcp`.
+    - The live smoke test passed 22/22.
+    - Both tokens are in `.env` (`MCP_AUTH_TOKEN_PUBLIC` and `_STAFF`);
+      never print or commit them.
+    - Redeploy after changing `server.py`. The wiki content needs no
+      redeploy: it is read live from Neo4j, so only re-sync.
+    - To rotate the tokens, update `.env`, recreate `egd-mcp-auth` with
+      `--force`, then redeploy.
 
 ## Current state
 

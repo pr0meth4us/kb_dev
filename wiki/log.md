@@ -269,3 +269,9 @@ Built `mcp_server/` (server.py, modal_app.py, requirements.txt, smoke_test.py), 
 - **Not deployed to Modal.**
 
 `app-integration/egd-chatbot-instruction.md` gains §3a (token mapping and tool use). `.env.example` gains the two token variables.
+
+## [2026-10-28] deploy | MCP server on Modal
+
+- The user asked to deploy. Generated the public and staff tokens into `.env` (not printed). Created the Modal secrets `egd-neo4j` (the NEO4J_* variables only) and `egd-mcp-auth` (the two tokens) from temporary files, then deleted those files.
+- `modal deploy mcp_server/modal_app.py` → app `egd-wiki-mcp`, endpoint https://rinabuoy13--egd-wiki-mcp-web.us-east.modal.run/mcp.
+- Live smoke test: 22/22 passed, including public/internal isolation. The first run timed out on a cold start, so the smoke test now allows 180 s for its first request.
