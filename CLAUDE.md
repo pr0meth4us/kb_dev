@@ -90,9 +90,13 @@ against `raw/` as you ingest, and record it with a citation.
 
 - **`raw/`**: immutable sources. Never edit a file's contents. You may move
   and rename files only to file them (see Inbox).
-  - Layout: `raw/<Entity>/<Year|undated>/<name>`. Entities so far: `EGD`
-    (EGD Department / TSC). Add `TSC`, `MEF`, `ADB`, `RGC` and so on as
-    sources arrive.
+  - Layout: `raw/<Entity>/<Year|undated>/<name>`. Entities so far:
+    - `EGD`: the EGD Department / TSC;
+    - `DEBC`: the Digital Economy and Business Committee, publisher of the
+      Program Book;
+    - `SNEC`: the Supreme National Economic Council, author of the policy
+      framework;
+    - `RGC`: the Royal Government (Pentagonal Strategy).
   - Name: `<YYYY[-MM[-DD]]|undated>_<Type>[-<No>]_<English-Title>[_variant].<ext>`.
   - `<Type>` values:
     - Programme: `ProgramBook`, `SOP`, `Guidebook`, `Guide`, `Form`,
@@ -245,6 +249,21 @@ wiki/
   2024 Guidebook differ on a figure, the KB wins and the difference goes
   on `source-conflicts`. The Guidebook fills rules the KB leaves out;
   label them as Guidebook conditions.
+- **Where public sources live (search of 2026-10-28):**
+  - **digitaleconomy.gov.kh**, the committee's publications page: the Program
+    Book and the policy framework, EN and KH.
+  - **Open Development Cambodia** (`data.opendevelopmentcambodia.net`):
+    mirrors with direct `/download/` links.
+  - The EGD site's archive list is rendered by JavaScript (Nuxt; its API base
+    is an internal cluster host). It needs a browser session to list.
+  - Watch for speech PDFs posing as documents: the Council of Ministers'
+    "Pentagonal Strategy" PDF is the PM's 14-page introductory remarks.
+  - The SOP, Progress Report and Internal FAQ are internal documents, not
+    found online. They must come from the EGD team.
+- **Date by signature, file by issuer.** The Program Book's PDF metadata
+  says June 2023, but the foreword is signed 21 Apr 2023, and the issuer is
+  the committee, not TSC. Read the cover, imprint and signature before
+  naming.
 - **Generate verbatim tables by script.** `wiki/glossary.md` was built from
   the source table, not retyped, so the Khmer can't drift. Rebuild it the
   same way if the Glossary changes.
@@ -430,8 +449,15 @@ wiki on 2026-10-28 and re-namespaced:
   created 2026-10-28). **Last synced 2026-10-28:** 42 pages, all with
   embeddings, 316 `LINKS_TO`, 0 unresolved links. `audience` was verified
   in the graph: 38 public, 4 internal.
+- **Batch 8 (2026-10-28):** sources found by web search and filed:
+  - the Program Book (`raw/DEBC/2023/`, Khmer, OCR'd);
+  - the policy framework (`raw/SNEC/2021/`, EN text and KH);
+  - the Pentagonal Strategy (`raw/RGC/2023/`, EN unofficial translation,
+    OCR'd).
+
+  New page `digital-economy-business-committee`. Conflict #1 resolved:
+  five priority activities (Program Book) vs three supports (FAQ).
 - **Open for the EGD team** (`source-conflicts`):
-  - #1: five vs three activities;
   - #2: the hotlines;
   - #5: the non-DA programmes;
   - #7: the Guidebook's single cap vs the $250 informal tier.
@@ -439,9 +465,9 @@ wiki on 2026-10-28 and re-namespaced:
   Also: the registered-micro inference; the Khmer fallback text; the four
   Part 4 decisions.
 - **Next:**
-  - Batch 8, when sources arrive: the Program Book, Platform SOP 2026,
-    Progress Report 2025, Internal FAQ, and the policy PDFs from the
-    website archive.
+  - Internal sources only the EGD team can supply: Platform SOP 2026,
+    Progress Report 2025, Internal FAQ.
+  - The EGD website archive list, which needs Chrome connected.
   - Re-check the live site's course statuses periodically.
   - A first full lint pass to `wiki/lint-reports/`.
 - **Source gaps:** EGD Program Book, Platform SOP 2026, Progress Report

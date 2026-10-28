@@ -10,13 +10,14 @@ sources:
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.md
 ---
 
 A one-page synthesis of the EGD Program: who runs it, what it offers each user group, how the pieces connect, and where the sources are still unsettled.
 
 ## Who runs it
 
-The [[egd-program]] is a free, non-profit national programme. It is implemented by the [[egd-department]] of [[techo-startup-center]] (TSC), a public administrative institution under the [[ministry-of-economy-and-finance]]. It is fully funded by the [[skills-development-fund]] and is currently implementing an ADB-funded MSME project for 2024–2028 ([[adb-msme-digital-adoption-project]]). It supports the "Digital Business" pillar of the [[digital-economy-society-policy-framework]] and Pentagon 5 of the [[pentagonal-strategy-phase-1]].
+The [[egd-program]] is a free, non-profit national programme. It was designed in the 2023 Program Book of the [[digital-economy-business-committee]], which leads and coordinates it, and it is named in Pentagon 5 of the Government's strategy. It is implemented by the [[egd-department]] of [[techo-startup-center]] (TSC), a public administrative institution under the [[ministry-of-economy-and-finance]]. It is fully funded by the [[skills-development-fund]] and is currently implementing an ADB-funded MSME project for 2024–2028 ([[adb-msme-digital-adoption-project]]). It supports the "Digital Business" pillar of the [[digital-economy-society-policy-framework]] and Pentagon 5 of the [[pentagonal-strategy-phase-1]].
 
 ## The enterprise journey
 
@@ -57,9 +58,8 @@ First steps for a new user: [[getting-started-with-egd]].
 ## Still unsettled
 
 - **Open conflicts** ([[source-conflicts]]):
-  - "five priority activities" vs three named supports;
   - the hotline numbers;
   - whether the two non-DA programmes count as DA Training;
   - the Guidebook's single 400-dollar cap vs the 2026 $250 informal tier.
-- **Missing documents** ([[source-gaps]]): the EGD Program Book and the Platform SOP 2026 are the biggest.
+- **Missing documents** ([[source-gaps]]): the Platform SOP 2026 and the Progress Report 2025 are the biggest. Both are internal and not published online.
 - **Approval:** the knowledge base itself awaits management approval, so every content page is `draft`.

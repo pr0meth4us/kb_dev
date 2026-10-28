@@ -9,6 +9,7 @@ sources:
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.md
 ---
 
 Documents and facts the wiki needs but `raw/` doesn't contain. The chatbot must answer these with "I don't have that information" plus [[contacts]], never a guess.
@@ -17,20 +18,20 @@ Documents and facts the wiki needs but `raw/` doesn't contain. The chatbot must 
 
 | Document | Cited by | What depends on it |
 |---|---|---|
-| EGD Program Book (official) | KB §1; Brief §2.1, A.1 | The "five priority activities"; the programme's full structure |
+| ~~EGD Program Book~~ **filed 2026-10-28** as `raw/DEBC/2023/2023-04-21_ProgramBook_*` (Khmer, OCR) | KB §1; Brief §2.1, A.1 | Five priority activities now known. Not readable from the OCR: the §3.2 goals list (image, p. 41), the Table 3 summary (p. 48) and the results framework (Table 6) |
 | EGD Platform SOP 2026 | Brief §3.2, A.1 | Step-by-step approval procedures (internal) |
 | EGD Program Progress Report 2025 | Brief A.1 | Progress figures (internal) |
 | Internal FAQ | Brief A.2 | Staff Q&A (internal) |
 | ~~DA Grant Guidebook~~ **filed 2026-10-28** as `raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.*` (Nov 2024, v6) | Brief §2.5 | Now covers eligibility, review, reimbursement and reporting. An updated edition matching the 2026 $250 tier is not in raw/. |
 | "Guidebook on the DA course registration process" | GB ¶13 | The full information non-trained grant applicants must give |
-| Cambodia Digital Economy and Society Policy Framework 2021–2035 | KB §1; linked on the website | What the "Digital Business" pillar says |
-| Pentagonal Strategy – Phase I | KB §1; linked on the website | What Pentagon 5 (Side 2) is |
-| Website archive (`/archive/laws-and-regulations`) | web notes | Possibly any of the above |
+| ~~Cambodia Digital Economy and Society Policy Framework 2021–2035~~ **filed 2026-10-28** (EN and KH, `raw/SNEC/2021/`) | KB §1 | Scoped reading done |
+| ~~Pentagonal Strategy – Phase I~~ **filed 2026-10-28** (EN unofficial translation, `raw/RGC/2023/`) | KB §1 | Scoped reading done; the Khmer original is not filed |
+| Website archive (`/archive/laws-and-regulations`) | web notes | Its list is rendered by JavaScript; it couldn't be read without a browser on 2026-10-28 |
 | Website privacy policy and terms (/policy, /terms) | web notes | Formal data-protection rules ([[platform-data-privacy]]) |
 
 ## Facts not settled by `raw/`
 
-- **Programme structure:** the five priority activities, by name (see [[egd-program]]).
+- **Programme structure:** the §3.2 goals and the results-framework targets of the Program Book (image-only pages; read from page images if needed) ([[egd-program]]).
 - **Funding:** how "fully funded by the SDF" fits with the ADB-funded project ([[skills-development-fund]], [[adb-msme-digital-adoption-project]]); ADB project number, amount and targets.
 - **Contacts:** the Facebook page URL; whether the two extra hotline numbers are current ([[contacts]]).
 - **DA Grant:**

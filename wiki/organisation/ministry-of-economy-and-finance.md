@@ -9,6 +9,7 @@ sources:
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.md
 ---
 
 The ministry that oversees Techo Startup Center and the EGD Program.
@@ -21,5 +22,8 @@ The ministry that oversees Techo Startup Center and the EGD Program.
 
 - **Supervisor:** the Grant Guidebook (Nov 2024, ¶18) calls the MEF TSC's "technical and financial supervisory authority" (អាណាព្យាបាលបច្ចេកទេស និង ហិរញ្ញវត្ថុ). TSC carries out duties the MEF sets.
 - **Reporting:** TSC compiles DA Grant monitoring reports for the donor, the MEF and other parties (GB ¶20). See [[da-grant]].
+
+- **Committee chair:** the Minister of Economy and Finance, also Deputy Prime Minister, chairs the [[digital-economy-business-committee]], which leads and coordinates EGD (Program Book foreword and §4.1, 21 Apr 2023).
+- **Other MEF support:** the Program Book's Figure 18 lists MEF support initiatives for enterprises. It is an image, not readable in the OCR.
 
 The sources say nothing else about the MEF's role in EGD.

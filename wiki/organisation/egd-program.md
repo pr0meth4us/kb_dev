@@ -10,6 +10,8 @@ sources:
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-Web-Compiled.md
+  - "raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.md (read: foreword, executive summary, §3–4.1)"
+  - "raw/RGC/2023/2023-08_Strategy_Pentagonal-Strategy-Phase-I_EN.md (read: Pentagon 5, Side 2)"
 ---
 
 A free national programme, run by TSC's Enterprises Go Digital Department under the MEF, that builds the digital capabilities of Cambodian MSMEs and informal businesses.
@@ -41,15 +43,44 @@ A free national programme, run by TSC's Enterprises Go Digital Department under 
 
 ## What it offers
 
-The sources describe the offer in two ways that haven't been reconciled.
+### The five priority activities (Program Book, 2023)
 
-- **"Five priority activities":** KB §1 and Brief §2.1 say EGD "has five priority activities". Neither lists them; both defer to the **EGD Program Book**, which is not in `raw/` ([[source-gaps]]).
-- **Three core supports:** FAQ 1.1 and 1.4 list three core activities or supports:
-  1. [[da-training]], with "6 specialized training activities";
-  2. the [[da-grant]];
-  3. the [[egd-platform]], a central gateway to development partners and official DSPs.
+The KB (§1) and Brief (§2.1) say EGD "has five priority activities" and refer to the Program Book. The book (`raw/DEBC/2023/…`, signed 21 Apr 2023) sets them out as "five interlinked activities" (§3.3 and the executive summary):
 
-> **Conflict (open):** "five priority activities" (KB, Brief) vs "three core activities" (FAQ). Until the Program Book is in `raw/`, answer with the three named supports and don't state a count of five. Logged on [[source-conflicts]].
+1. **Digitalising enterprises' business operations and marketing** (General Business and Marketing Functions). It has three parts:
+   - a sector-based **digital readiness assessment**, an online questionnaire for micro, small, medium and large enterprises; this became the [[digital-adoption-assessment]];
+   - a **Digital Solution Roadmap** in three growth stages: "Kickstart the Digital Journey", "Integrate in the Value Chain", "Strengthen Competitive Edge". These are the names later used for [[da2-kickstart-digital-journey]], [[da3-integrate-into-the-value-chain]] and [[da4-strengthen-competitive-edge]];
+   - a **Digital Training Roadmap**.
+2. **Research and planning** of enterprise digital transformation by sector.
+3. **Developing the Enterprises Go Digital Platform:** the "core" activity. It is a one-stop shop matching providers and enterprises by readiness level, with "Pre-Approved Solutions" from qualified local providers. See [[egd-platform]].
+4. **Establishing an Enterprise Digital Transformation Center** (also called the "Enterprises Go Digital Hub"). It is a physical help desk for information, platform use, advice and training, with a head office in Phnom Penh and potential provincial expansion. §3.5 says expansion would start from 2025.
+5. **A national dissemination and awareness campaign**, including an outreach strategy, platform content and success stories.
+
+The book's answer to these activities is a response to **six challenges** enterprises face (executive summary):
+1. knowledge and awareness of digital technology;
+2. managing, maintaining and developing it;
+3. hesitancy to use it;
+4. public–private cooperation on platforms;
+5. enterprise communication mechanisms;
+6. lack of investment capital.
+
+### The three core supports (FAQ)
+
+FAQ 1.1 and 1.4 describe the enterprise-facing offer as three core activities:
+1. [[da-training]], with "6 specialized training activities";
+2. the [[da-grant]];
+3. the [[egd-platform]].
+
+> **Resolved** ([[source-conflicts]] #1). Both are right at different levels. The **five priority activities** are the programme's design (Program Book, 2023). The **three core supports** are what enterprises use today (FAQ, 2026). The DA courses and the grant voucher are not in the 2023 book; they came later.
+> - Asked "what are EGD's priority activities?": give the five.
+> - Asked "what support can my business get?": give the three.
+
+### How the programme is run (Program Book §4.1, §3.5)
+
+- **Leadership:** from January 2023 the programme is led and coordinated by the [[digital-economy-business-committee]], with its General Secretariat as technical staff, and implemented by [[techo-startup-center]].
+- **Implementation plan:** runs 2022–2027 (Table 5).
+- **Scope:** "Land and Expand for Efficiency". It starts with basic digital adoption in priority sectors, then moves to intermediate and advanced levels and all sectors and sizes, including startups.
+- **Government strategy:** the [[pentagonal-strategy-phase-1]] (Aug 2023), Pentagon 5, Side 2, lists "Developing and launching the Enterprises Go Digital program" as a measure for the Seventh Legislature.
 
 The platform's enterprise journey, from the KB and Brief:
 

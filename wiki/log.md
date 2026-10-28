@@ -192,3 +192,42 @@ Neo4j: synced 2026-10-28. 42 pages, 42 with embeddings, 316 LINKS_TO; audience v
 
 - `git init` on `main` with Git LFS for PDFs (5 PDFs in LFS). `.env` is ignored. First commit `03cc676` (78 files). No remote configured.
 - Remote `origin` = https://github.com/rinabuoy/egd_kb.git; `main` pushed with 5 LFS objects (26 MB).
+
+## [2026-10-28] file | web search for missing sources
+
+The user asked for a search for the Program Book, Platform SOP 2026, Progress Report 2025, Internal FAQ and the website archive's policy PDFs.
+
+**Found and filed** (URLs and MD5s in `_MOVED_FILES.tsv`):
+- **Program Book:** "Enterprises Go Digital Program", Khmer, 66 pp.
+  - Downloaded from digitaleconomy.gov.kh; byte-identical to the Open Development Cambodia copy.
+  - First filed under `raw/EGD/2023/`, then re-filed as `raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.*`. The issuer is the Digital Economy and Business Committee, and the date is the foreword signature.
+  - OCR'd: 66/66 pages. The image-only pages are the goals list (p. 41), Table 3 (p. 48) and the results framework.
+- **Cambodia Digital Economy and Society Policy Framework 2021–2035:** EN (180 pp, text layer → `.md`) and KH (164 pp). Filed as `raw/SNEC/2021/2021-05_Policy_…_{EN,KH}`.
+- **Pentagonal Strategy – Phase I:** EN unofficial translation, 95-page scan, OCR'd. Filed as `raw/RGC/2023/2023-08_Strategy_Pentagonal-Strategy-Phase-I_EN.*`. The Council of Ministers' 14-page "Pentagonal Strategy" PDF is the PM's introductory remarks; it was not filed.
+
+**Not found:** the Platform SOP 2026, Progress Report 2025 and Internal FAQ. These are internal documents with no public copy.
+
+**Not readable:** the EGD website archive (`/archive/laws-and-regulations`). It is rendered by JavaScript, and the Chrome extension was not connected.
+
+## [2026-10-28] ingest | batch 8: Program Book and policy documents
+
+Pages created (1): `digital-economy-business-committee`.
+
+Pages rewritten:
+- `digital-economy-society-policy-framework` (scoped: cover, §2.5, Table 1, five goals, §3.4.5 A);
+- `pentagonal-strategy-phase-1` (scoped: Pentagon 5, Side 2 names EGD in its objective and measure 4).
+
+Pages updated:
+- `egd-program`: the five priority activities, the six challenges, governance (the committee leads, TSC implements), the 2022–2027 plan, scope;
+- `source-conflicts`: #1 resolved;
+- `source-gaps`;
+- `ministry-of-economy-and-finance`: the Minister chairs the committee;
+- `overview`, `glossary` (gaps), `index`;
+- `app-integration/egd-chatbot-instruction.md`: interim answer #1.
+
+Judgement calls:
+- **#1:** both lists are valid. The Program Book's five are the programme's design; the FAQ's three are today's enterprise services.
+- **2023 vs 2026 content:** the Program Book doesn't mention the SDF, the grant voucher or DA1–DA6. Those are treated as later developments, not conflicts.
+- **Policy documents:** marked `current`, not draft, because they are signed government documents rather than the unapproved chatbot set.
+- **Pentagonal Strategy:** cited as an unofficial translation.
+Neo4j: synced 2026-10-28. 43 pages, 43 with embeddings, 335 LINKS_TO.

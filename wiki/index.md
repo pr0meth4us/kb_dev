@@ -13,6 +13,7 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 - [[egd-department]] — The department of Techo Startup Center that implements the EGD Program.
 - [[techo-startup-center]] — The public administrative institution under the MEF that implements the EGD Program through its Enterprises Go Digital Department.
 - [[ministry-of-economy-and-finance]] — The ministry that oversees Techo Startup Center and the EGD Program.
+- [[digital-economy-business-committee]] — The government committee that designed the EGD Program in its 2023 Program Book, and that has led and coordinated EGD since January 2023. TSC implements it.
 - [[skills-development-fund]] — The fund that fully finances the EGD Program.
 - [[adb-msme-digital-adoption-project]] — The ADB-funded project, 2024–2028, that the EGD Program is currently implementing.
 
@@ -52,8 +53,8 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 
 ## policies/
 
-- [[digital-economy-society-policy-framework]] — The national policy framework whose "Digital Business" pillar the EGD Program supports.
-- [[pentagonal-strategy-phase-1]] — The Royal Government of Cambodia's Pentagonal Strategy – Phase I. The EGD Program sits under its Pentagon 5 (Side 2).
+- [[digital-economy-society-policy-framework]] — The Royal Government's 15-year digital economy and society framework (May 2021). Its "Digital Businesses" pillar, which promotes digital adoption by enterprises and especially SMEs, is the part the EGD Program supports.
+- [[pentagonal-strategy-phase-1]] — The Royal Government's socio-economic policy agenda for the Seventh Legislature (August 2023). Its Pentagon 5, Side 2 explicitly commits to "developing and launching the Enterprises Go Digital program".
 
 ## reference/
 

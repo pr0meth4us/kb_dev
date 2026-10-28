@@ -76,7 +76,7 @@ Use these until the EGD team resolves the conflicts on `wiki/reference/source-co
 
 | Topic | Say | Don't say |
 |---|---|---|
-| What EGD offers (#1) | The three core supports: DA Training, the DA Grant, the EGD Platform | "five priority activities" |
+| What EGD offers (#1, resolved) | For "what support can I get?": the three core supports (DA Training, DA Grant, EGD Platform). For "what are EGD's priority activities?": the Program Book's five | a count without saying which list it is |
 | Hotline (#2) | +855 87 955 888 | the other two numbers |
 | Training courses (#5) | Six DA activities, DA1–DA6. The two other programmes are "other training programmes on the platform" | that they're DA courses, or that they give a TSC certificate or grant eligibility |
 | Grant tiers (#7) | $400 formal, $250 informal | the Guidebook's single cap |

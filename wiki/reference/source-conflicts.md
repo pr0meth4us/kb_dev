@@ -13,13 +13,14 @@ sources:
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DAA-and-Enterprise-Pages-Web-Compiled.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DA-Program-Page-Web-Compiled.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/DEBC/2023/2023-04-21_ProgramBook_Enterprises-Go-Digital-Program.md
 ---
 
 Places where the sources disagree, the interim answer the wiki gives, and what would settle each one. These are for the EGD team to resolve.
 
 | # | Topic | Disagreement | Interim answer | Settled by | Status | Page |
 |---|---|---|---|---|---|---|
-| 1 | Programme activities | KB §1 and Brief §2.1: "five priority activities", none listed. FAQ 1.1 and 1.4: "three core activities" (DA Training, DA Grant, EGD Platform). | Name the three supports; don't state "five". | EGD Program Book, or EGD team | open | [[egd-program]] |
+| 1 | Programme activities | KB §1 and Brief §2.1: "five priority activities", none listed. FAQ 1.1 and 1.4: "three core activities" (DA Training, DA Grant, EGD Platform). | Both are right at different levels. The Program Book (§3.3, 2023) lists the five priority activities (programme design); the FAQ's three are the enterprise-facing supports. Give whichever matches the question. | EGD Program Book (21 Apr 2023) | resolved | [[egd-program]] |
 | 2 | Hotline numbers | Brief §2.1: three numbers. KB §7.1 and website: +855 87 955 888 only. | Give +855 87 955 888. | EGD team | open | [[contacts]] |
 | 3 | DAA availability | KB §3 and Brief §2.3: DAA available after CamDigiKey login. Website (2026-10-28): the home-page menu link goes to /coming-soon. | DAA is available. The KB URL shows a live start page (→ /daa/survey); the home-page menu link is stale. | Site check, 2026-10-28 (DAA web notes) | resolved | [[digital-adoption-assessment]] |
 | 4 | Eligible grant solutions | KB §5: 11 categories, including ERP, Chatbot for MSMEs and Customer Service Management. Brief §2.5: 8 categories. | The Guidebook (¶12b) names the Brief's 8 plus "other digital solutions", which covers the KB's 3 extras. Answer with the KB's 11. | Guidebook, Nov 2024 | resolved | [[da-grant]] |
