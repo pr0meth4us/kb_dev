@@ -162,6 +162,15 @@ against `raw/` as you ingest, and record it with a citation.
   - **Testing:** `python bot/egd_telegram_bot.py --ask "…" [--staff]` asks
     one question without Telegram.
   - **Secrets:** `TELEGRAM_BOT_TOKEN` and `GEMINI_API_KEY` live in `.env`.
+  - **Bot:** @egdgovkh_bot. Started locally 2026-10-28; not yet hosted.
+  - **Lessons from the first tests:**
+    - Set the reply language in code. Retrieved Khmer figures pull English
+      questions into Khmer otherwise.
+    - Tell the model the user's access level each turn. Otherwise it
+      refuses staff questions even when the staff token returns the page.
+    - This model rejects `thinking_budget=0`; use
+      `thinking_level=MINIMAL`.
+    - Gemini latency is 15–30 s per call; the MCP calls are about 1 s.
 - **This file**: the schema. Update it as conventions settle. Call out
   each schema change to the user, and keep it lean. History goes in
   `wiki/log.md`, not here.

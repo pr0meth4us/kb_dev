@@ -115,6 +115,17 @@ def _plain(text: str) -> str:
     return text.strip()
 
 
+def reply_language(text: str) -> str:
+    """Khmer if most letters are Khmer script, else English (Brief §1.3.2).
+
+    Decided in code, not left to the model: retrieved pages contain Khmer
+    figures and terms, which otherwise pull English questions into Khmer.
+    """
+    khmer = sum(1 for c in text if "\u1780" <= c <= "\u17ff")
+    latin = sum(1 for c in text if c.isascii() and c.isalpha())
+    return "Khmer" if khmer > latin else "English"
+
+
 def _declarations(mcp_tools) -> list[types.FunctionDeclaration]:
     return [
         types.FunctionDeclaration(
@@ -141,7 +152,9 @@ class Answerer:
         self.history.pop(chat_id, None)
 
     async def answer(self, chat_id: int, user_id: int | None, text: str) -> str:
-        headers = {"Authorization": f"Bearer {token_for(user_id)}"}
+        token = token_for(user_id)
+        staff = bool(STAFF_TOKEN) and token == STAFF_TOKEN
+        headers = {"Authorization": f"Bearer {token}"}
         contents = list(self.history[chat_id]) + [
             types.Content(role="user", parts=[types.Part.from_text(text=text)])
         ]
@@ -150,11 +163,26 @@ class Answerer:
             async with ClientSession(r, w) as session:
                 await session.initialize()
                 tools = (await session.list_tools()).tools
+                language = reply_language(text)
                 config = types.GenerateContentConfig(
-                    system_instruction=SYSTEM_INSTRUCTION,
+                    system_instruction=(
+                        SYSTEM_INSTRUCTION
+                        + ("\n\nUSER ACCESS: authorised EGD staff. You may answer from internal pages "
+                           "the tools return (approval workflow, progress reporting, Policy Research "
+                           "Office general role)."
+                           if staff else
+                           "\n\nUSER ACCESS: public. Never share internal information; if asked, say it "
+                           "isn't information you can share and give the contacts.")
+                        + f"\n\nREPLY LANGUAGE FOR THIS MESSAGE: {language} only. "
+                        + ("Use the Khmer figure forms and Glossary terms."
+                           if language == "Khmer" else
+                           "Write every word and figure in English, e.g. "
+                           "\"$250 (or 1,000,000 Riels)\", even if the pages show Khmer.")
+                    ),
                     tools=[types.Tool(function_declarations=_declarations(tools))],
                     automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
                     temperature=0.2,
+                    thinking_config=types.ThinkingConfig(thinking_level=types.ThinkingLevel.MINIMAL),
                 )
                 reply = ""
                 for _ in range(MAX_TOOL_ROUNDS + 1):
@@ -215,17 +243,25 @@ def run_telegram() -> None:
             me = context.bot.username or ""
             if f"@{me}" not in msg.text:
                 return
-        await context.bot.send_chat_action(msg.chat_id, ChatAction.TYPING)
+        async def keep_typing():  # Telegram drops "typing…" after ~5 s; Gemini can take 30 s
+            while True:
+                await context.bot.send_chat_action(msg.chat_id, ChatAction.TYPING)
+                await asyncio.sleep(4)
+
+        typing = asyncio.create_task(keep_typing())
         try:
             reply = await answerer.answer(msg.chat_id, msg.from_user.id if msg.from_user else None,
                                           msg.text.replace(f"@{context.bot.username}", "").strip())
         except Exception:
             log.exception("answer failed")
             reply = FALLBACK_EN
+        finally:
+            typing.cancel()
         for i in range(0, len(reply), TELEGRAM_LIMIT):
             await msg.reply_text(reply[i:i + TELEGRAM_LIMIT])
 
-    app = Application.builder().token(token).build()
+    # Concurrent updates: one slow Gemini answer must not block other users.
+    app = Application.builder().token(token).concurrent_updates(True).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("reset", reset))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, on_text))

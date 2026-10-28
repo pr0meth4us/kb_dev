@@ -275,3 +275,21 @@ Built `mcp_server/` (server.py, modal_app.py, requirements.txt, smoke_test.py), 
 - The user asked to deploy. Generated the public and staff tokens into `.env` (not printed). Created the Modal secrets `egd-neo4j` (the NEO4J_* variables only) and `egd-mcp-auth` (the two tokens) from temporary files, then deleted those files.
 - `modal deploy mcp_server/modal_app.py` → app `egd-wiki-mcp`, endpoint https://rinabuoy13--egd-wiki-mcp-web.us-east.modal.run/mcp.
 - Live smoke test: 22/22 passed, including public/internal isolation. The first run timed out on a cold start, so the smoke test now allows 180 s for its first request.
+
+## [2026-10-28] setup | Telegram bot @egdgovkh_bot
+
+Built `bot/egd_telegram_bot.py`: Telegram → Gemini (`gemini-flash-lite-latest`, function calling) → MCP server.
+
+Tested with `--ask` before going live. Fixes made from those tests:
+- **Language:** an English question got a Khmer reply, because the retrieved pages contain Khmer figures. The bot now detects the reply language in code (Khmer vs Latin letters) and states it on every turn.
+- **Staff access:** staff got the fallback even though retrieval returned the internal page, because the model wasn't told the user's access level. Each turn now states it (staff or public), matching the token the bot chose.
+- **Thinking:** `thinking_budget=0` is rejected by this model; the bot uses `thinking_level=MINIMAL`.
+- **Latency:** answers take about 30 s, almost all of it Gemini. A bare "Say hi" took 15–30 s, while the MCP calls take about 1 s each. Mitigations: the "typing…" indicator is kept alive during the answer, and updates are handled concurrently.
+
+Results after fixes:
+- Correct: the informal-grant amount in English; the DAA time in Khmer with Glossary terms; the laptop exclusion.
+- Public user asking about the internal workflow → fallback.
+- Staff user → the five stages.
+- Out-of-scope question (company registration) → fallback.
+
+Started locally (long polling) as @egdgovkh_bot. No staff IDs are configured yet, so everyone is public.
