@@ -187,3 +187,7 @@ Judgement calls:
 
 Lint: 0 errors. Public pages don't link to internal pages (checked by `lint_wiki.py`). **The build order (1–7) is complete, apart from batch 8**, which waits for new sources.
 Neo4j: synced 2026-10-28. 42 pages, 42 with embeddings, 316 LINKS_TO; audience verified in the graph (38 public, 4 internal).
+
+## [2026-10-28] setup | git
+
+- `git init` on `main` with Git LFS for PDFs (5 PDFs in LFS). `.env` is ignored. First commit `03cc676` (78 files). No remote configured.

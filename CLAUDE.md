@@ -135,8 +135,10 @@ against `raw/` as you ingest, and record it with a citation.
   - Planned: `build_source_catalogue.py` (every `raw/` source and the pages
     citing it) and a chatbot export to `data/`.
 - **`data/`**: generated exports only. Regenerate them; never hand-edit.
-- **Git:** not initialised yet. When it is, store PDFs with Git LFS (see
-  `.gitattributes`), never commit `.env`, and commit after each batch.
+- **Git:** initialised 2026-10-28 on `main` (first commit `03cc676`). PDFs
+  go through Git LFS (`.gitattributes`); run `git lfs install` on any new
+  clone. Never commit `.env`. Commit after each batch, filing and lint
+  pass. **No remote yet**: push only once the user names a repo.
 - **This file**: the schema. Update it as conventions settle. Call out
   each schema change to the user, and keep it lean. History goes in
   `wiki/log.md`, not here.
