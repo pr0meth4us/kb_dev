@@ -1,0 +1,9 @@
+.env
+.DS_Store
+.wikigraph_cache/
+__pycache__/
+*.pyc
+.ocr_cache/
+
+# Temporary internal working papers: ingested locally, never committed
+raw/_temporary/
