@@ -191,3 +191,4 @@ Neo4j: synced 2026-10-28. 42 pages, 42 with embeddings, 316 LINKS_TO; audience v
 ## [2026-10-28] setup | git
 
 - `git init` on `main` with Git LFS for PDFs (5 PDFs in LFS). `.env` is ignored. First commit `03cc676` (78 files). No remote configured.
+- Remote `origin` = https://github.com/rinabuoy/egd_kb.git; `main` pushed with 5 LFS objects (26 MB).

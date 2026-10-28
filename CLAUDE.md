@@ -138,7 +138,7 @@ against `raw/` as you ingest, and record it with a citation.
 - **Git:** initialised 2026-10-28 on `main` (first commit `03cc676`). PDFs
   go through Git LFS (`.gitattributes`); run `git lfs install` on any new
   clone. Never commit `.env`. Commit after each batch, filing and lint
-  pass. **No remote yet**: push only once the user names a repo.
+  pass. Remote: `origin` = `github.com/rinabuoy/egd_kb` (pushed 2026-10-28). The user authorised pushing to it; push after each commit.
 - **This file**: the schema. Update it as conventions settle. Call out
   each schema change to the user, and keep it lean. History goes in
   `wiki/log.md`, not here.
