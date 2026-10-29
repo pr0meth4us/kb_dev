@@ -162,6 +162,9 @@ against `raw/` as you ingest, and record it with a citation.
   - **Testing:** `python bot/egd_telegram_bot.py --ask "…" [--staff]` asks
     one question without Telegram.
   - **Secrets:** `TELEGRAM_BOT_TOKEN` and `GEMINI_API_KEY` live in `.env`.
+  - **Buttons:** /start and /help show six starter questions (Khmer if the
+    user's Telegram language is `km`). Each answer gets up to 3 follow-up
+    buttons, written by Gemini in the same call after a `FOLLOWUPS:` line.
   - **Bot:** @egdgovkh_bot. Started locally 2026-10-28; not yet hosted.
   - **Lessons from the first tests:**
     - Set the reply language in code. Retrieved Khmer figures pull English
