@@ -313,3 +313,11 @@ Sources: `raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Addit
 - **DSP Solution Directory:** Added the complete 42-solution catalog across 8 categories with package pricing in KHR and voucher cap coverage on `wiki/programs/digital-solution-providers.md`. Documented that DSP status does not expire and foreign providers with Cambodian operations are eligible on `wiki/processes/dsp-registration.md`.
 - **Conflict Resolution & Encyclopedic Schema:** Settled all 9 historical source conflicts on `wiki/reference/source-conflicts.md`. Cleaned all section headers, prose, and reference tables across 36 wiki pages to adhere strictly to the clean Karpathy LLM-Wiki schema without patch annotations or diff-style commentary.
 - **Graph & Linter Verification:** Synced Neo4j graph to 48 `:EGDPage` nodes and 425 `LINKS_TO` relationships with BAAI/bge-small-en-v1.5 embeddings. Verified 0 lint errors via `scripts/lint_wiki.py`.
+
+
+## [2026-11-10] feat(bot) | filter stray characters and improve English question handling
+
+Sources: `bot/egd_telegram_bot.py`.
+
+- **Language Routing:** Implemented `_EN_QUESTION_PREFIX` in `reply_language` so English questions querying Khmer terms route to English instead of defaulting to Khmer.
+- **Script Sanitization:** Implemented `_strip_thai_lao()` in `_plain()` and `split_followups()` to intercept and remove stray characters at the bot delivery layer before Telegram transmission.
