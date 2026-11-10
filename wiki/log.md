@@ -321,3 +321,12 @@ Sources: `bot/egd_telegram_bot.py`.
 
 - **Language Routing:** Implemented `_EN_QUESTION_PREFIX` in `reply_language` so English questions querying Khmer terms route to English instead of defaulting to Khmer.
 - **Script Sanitization:** Implemented `_strip_thai_lao()` in `_plain()` and `split_followups()` to intercept and remove stray characters at the bot delivery layer before Telegram transmission.
+
+
+## [2026-11-10] refactor(instruction) | update chatbot prompt with live links, contacts, and rules
+
+Sources: `app-integration/egd-chatbot-instruction.md`.
+
+- **Live Links & Contacts:** Updated DAA URL to `/ecosystem/enterprise/digital-adoption-assessment` and added official EGD hotlines (+855 96 689 4940 / +855 85 244 654).
+- **Additions Rules:** Added prompt guidance for DSP approval timeframe (no fixed timeframe), trainer pay (decline to answer), and EGD offices (cite Prakas 2024).
+- **Script Hygiene:** Instructed the model not to output Thai or Lao characters in Khmer replies.
