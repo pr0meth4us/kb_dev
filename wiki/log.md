@@ -330,3 +330,10 @@ Sources: `app-integration/egd-chatbot-instruction.md`.
 - **Live Links & Contacts:** Updated DAA URL to `/ecosystem/enterprise/digital-adoption-assessment` and added official EGD hotlines (+855 96 689 4940 / +855 85 244 654).
 - **Additions Rules:** Added prompt guidance for DSP approval timeframe (no fixed timeframe), trainer pay (decline to answer), and EGD offices (cite Prakas 2024).
 - **Script Hygiene:** Instructed the model not to output Thai or Lao characters in Khmer replies.
+
+
+## [2026-11-10] docs(eval) | update post-modification evaluation report and metrics
+
+Sources: `raw/EGD/2026/2026-11-09_Report_EGD-Chatbot-Post-Modification-Test-Results.md`.
+
+- Update post-modification evaluation report with 61 Correct, 3 Minor, 1 Major (A5).

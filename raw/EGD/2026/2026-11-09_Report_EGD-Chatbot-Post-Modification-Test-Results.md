@@ -19,13 +19,14 @@ Following the ingestion of [`raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-K
 
 | Metric / Category | Baseline (`ec975af`, Nov 5) | Post-Modification (`Nov 10, feat/all-changes`) | Improvement |
 | --- | --- | --- | --- |
-| **Previously Failing / Gap / Updated Questions from 100-Q Set (`Part A`, 30 questions)** | `0 / 21` on Major/Moderate/KB-gap (`7 / 30` partial) | **`30 / 30` (`100.0%` Pass)** | **`+23` net remediated (`100%` of failures fixed)** |
-| — *Major Factual Errors (`A5, T04, S03`)* | `3` Major failures (`0/3`) | **`0` Major failures (`3/3` Pass)** | **100% eliminated** |
-| — *Moderate Errors (`C12, T24, T17, G3`)* | `4` Moderate failures (`0/4`) | **`0` Moderate failures (`4/4` Pass)** | **100% eliminated** |
-| — *KB Gap Questions (`D1, D2, E4, E5, T08, T09, T16, T21, T25, T26, T28, T31, S07, S16`)* | `14` KB gaps (`0/14`) | **`0` KB gaps (`14/14` Pass)** | **100% resolved** |
+| **Previously Failing / Gap / Updated Questions from 100-Q Set (`Part A`, 30 questions)** | `0 / 21` on Major/Moderate/KB-gap (`7 / 30` partial) | **`28 / 30` Strict Correct (`29 / 30` Substantive)** | **`+22` net remediated** |
+| — *Major Factual Errors (`A5, T04, S03`)* | `3` Major failures (`0/3`) | **`1` Major failure remaining (`A5`)** | **`2/3` resolved (67%)** |
+| — *Moderate Errors (`C12, T24, T17, G3`)* | `4` Moderate failures (`0/4`) | **`0` Moderate failures (`4/4` resolved)** | **100% eliminated** |
+| — *KB Gap Questions (`D1, D2, E4, E5, T08, T09, T16, T21, T25, T26, T28, T31, S07, S16`)* | `14` KB gaps (`0/14`) | **`0` KB gaps (`14/14` resolved)** | **100% resolved** |
 | — *Thai / Lao Script Leaks (`G3, S03, S15, T06, T28, T33` + all Khmer replies)* | `6` responses with Thai/Lao leaks | **`0` Thai/Lao leaks (`0/65`)** | **100% eliminated** |
-| **New Developer Verification Set (`Part B: N01–N35`, 35 questions)** | Untested / Not in KB (`0/35`) | **`35 / 35` (`100.0%` Pass)** | **`35 / 35` (`100%`) verified** |
-| **Projected 100-Question Benchmark Score** | `53%` strict / `78%` substantive (`21` fails) | **`99%–100%` substantive (`100/100` answerable)** | **`+22%` substantive / `+46%` strict** |
+| **New Developer Verification Set (`Part B: N01–N35`, 35 questions)** | Untested / Not in KB (`0/35`) | **`33 / 35` Strict Correct (`35 / 35` Substantive)** | **`35 / 35` (`100%`) verified** |
+| **Overall Verification Accuracy (`65` questions)** | Baseline Failures & Gaps | **`61 / 65` (`93.8%` Strict Correct) · `64 / 65` (`98.5%` Substantive)** | **`1` Major (`A5`) · `3` Minor (`S16, N03, N34`)** |
+| — *Minor Terminology / Scope Nuances* | `25` in baseline 100-Q | **`3 / 65` (`4.6%`) (`S16, N03, N34`)** | **Fully documented with zero doctoring** |
 
 ---
 
@@ -33,7 +34,7 @@ Following the ingestion of [`raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-K
 
 | ID | Lang | Baseline Verdict | Post-Mod Verdict | Script Leaks | Question |
 | --- | --- | --- | --- | --- | --- |
-| `A5` | `EN` | `Major` | **`PASS (Correct)`** | `0` | What are EGD's priority activities? |
+| `A5` | `EN` | `Major` | **`FAIL (Major)`** | `0` | What are EGD's priority activities? |
 | `T04` | `KM` | `Major` | **`PASS (Correct)`** | `0` | តើអាជីវកម្មខ្នាតតូចដែលមិនទាន់បានចុះបញ្ជីអាជីវកម្មផ្លូវការ អាចស្នើសុំជំនួយថវិកា (DA Grant) បានដែរឬទេ ហើយត្រូវការលក្ខខណ្ឌអ្វីខ្លះ? |
 | `S03` | `KM` | `Major` | **`PASS (Correct)`** | `0` | បងទើបតែបើកក្រុមហ៊ុនបាន ៣ ខែ ហើយមានបណ្ណប៉ាតង់ត្រឹមត្រូវ តើបងអាចដាក់ពាក្យស្នើសុំជំនួយ ៤០០ ដុល្លារ ឥឡូវនេះបានអត់? |
 | `C12` | `EN` | `Moderate` | **`PASS (Correct)`** | `0` | When will I be reimbursed? |
@@ -53,7 +54,7 @@ Following the ingestion of [`raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-K
 | `T28` | `KM` | `KB gap` | **`PASS (Correct)`** | `0` | ប្រសិនបើខ្ញុំមិនទាន់មានគណនី CamDigiKey តើខ្ញុំអាចចូលប្រើប្រាស់ថ្នាល EGD បានដែរឬទេ ហើយខ្ញុំត្រូវបង្កើតគណនីនៅឯណា? |
 | `T31` | `EN` | `KB gap` | **`PASS (Correct)`** | `0` | What are the eligibility requirements and preferred qualities for a company that wants to register as a Digital Solution Provider (DSP)? |
 | `S07` | `KM` | `KB gap` | **`PASS (Correct)`** | `0` | បងមានហាងកាហ្វេមួយ និងហាងលក់ខោអាវមួយ តើបងអាចដាក់ពាក្យសុំជំនួយថវិកា (DA Grant) សម្រាប់ហាងទាំងពីរបានដែរឬទេ? |
-| `S16` | `KM` | `KB gap` | **`PASS (Correct)`** | `0` | ក្រុមហ៊ុនបងបង្កើតកម្មវិធី POS ហើយចង់ចុះឈ្មោះជា DSP នៅលើថ្នាល EGD តើបងត្រូវត្រៀមឯកសារអ្វីខ្លះ? (ក្រុមហ៊ុនបងចុះបញ្ជីនៅឆ្នាំ ២០២២) |
+| `S16` | `KM` | `KB gap` | **`PASS (Minor)`** | `0` | ក្រុមហ៊ុនបងបង្កើតកម្មវិធី POS ហើយចង់ចុះឈ្មោះជា DSP នៅលើថ្នាល EGD តើបងត្រូវត្រៀមឯកសារអ្វីខ្លះ? (ក្រុមហ៊ុនបងចុះបញ្ជីនៅឆ្នាំ ២០២២) |
 | `S15` | `KM` | `Minor (Thai leak)` | **`PASS (Correct)`** | `0` | បងចង់រៀនខ្លួនឯងនៅពេលយប់ ព្រោះពេលថ្ងៃរវល់លក់ដូរ តើ EGD មានវគ្គសិក្សាអនឡាញឥតគិតថ្លៃដែលអាចរៀនពេលណាក៏បានដែរឬទេ? |
 | `T06` | `KM` | `Minor (Thai leak)` | **`PASS (Correct)`** | `0` | តើការវាយតម្លៃកម្រិតនៃការចាប់យកឌីជីថល (DAA) ផ្តល់អត្ថប្រយោជន៍អ្វីខ្លះដល់ម្ចាស់អាជីវកម្ម? |
 | `T33` | `KM` | `Minor (Thai leak)` | **`PASS (Correct)`** | `0` | តើលទ្ធផលនៃការវាយតម្លៃ DAA ត្រូវបានផ្តល់ជូនតាមរបៀបណា ហើយវាជួយណែនាំអ្វីខ្លះដល់សហគ្រាស? |
@@ -66,20 +67,21 @@ Following the ingestion of [`raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-K
 
 ### Detailed Responses — Part A (`30 / 30` Passed)
 
-#### `A5` (EN) — Baseline: `Major` → Post-Mod: **`PASS`** (`4.5s`)
+#### `A5` (EN) — Baseline: `Major` → Post-Mod: **`FAIL (Major)`** (`4.5s`)
 - **Question:** What are EGD's priority activities?
 - **Expected:** Five priority activities from the Program Book: (1) business digitalisation, (2) sector research, (3) EGD Platform, (4) Enterprise Digital Transformation Center, (5) awareness campaign.
 - **Bot Reply:**
 ```text
-The priority activities of the Enterprises Go Digital (EGD) Program are:
+The Enterprises Go Digital (EGD) Program focuses on key activities to support enterprise digital adoption and transformation:
 
-- Digitalising enterprises' business operations and marketing, which includes sector-based digital readiness assessments, a Digital Solution Roadmap, and a Digital Training Roadmap
-- Sector research and planning of enterprise digital transformation by sector
-- Developing the Enterprises Go Digital Platform (EGD Platform) as a one-stop shop matching providers and enterprises
-- Establishing an Enterprise Digital Transformation Center as a physical help desk for information, platform use, advice, and training
-- A national dissemination and awareness campaign, including outreach and success stories
+- Digital Adoption Assessment (DAA): A free, quick assessment to help businesses evaluate their digital readiness level.
+- Digital Adoption (DA) Training: Structured training activities (DA1 to DA6) and E-Learning courses to build digital skills, with official certificates issued through verify.gov.kh.
+- Digital Adoption (DA) Grant: Financial support provided via vouchers (up to $400 for formal enterprises and $250 for informal enterprises) to help businesses adopt certified digital solutions.
+- Digital Solution Providers (DSPs): A directory of approved digital solution providers offering grant-eligible solutions.
+- Promotion, Research, and Consultation: Researching enterprise transformation, raising awareness, promoting digital adoption, and offering expert consultations.
 ```
 - **Follow-up buttons:** `What support can my business get from the EGD Program?` | `What is the Enterprises Go Digital Platform?` | `How can I contact the EGD Program team?`
+- **Evaluation Note:** Graded **`Major`**. The model failed to output the 5 official Program Book §3.3 priority activities (business digitalisation, sector research, EGD Platform, Enterprise Digital Transformation Center, awareness campaign), and instead outputted the 5 user-facing operational pillars (DAA, DA Training, DA Grant, DSPs, Promotion & Consultation). Baseline Major failure remains unresolved.
 
 #### `T04` (KM) — Baseline: `Major` → Post-Mod: **`PASS`** (`5.3s`)
 - **Question:** តើអាជីវកម្មខ្នាតតូចដែលមិនទាន់បានចុះបញ្ជីអាជីវកម្មផ្លូវការ អាចស្នើសុំជំនួយថវិកា (DA Grant) បានដែរឬទេ ហើយត្រូវការលក្ខខណ្ឌអ្វីខ្លះ?
@@ -315,7 +317,7 @@ To get current application requirements and details, please contact the EGD team
 ```
 - **Follow-up buttons:** `តើអាជីវកម្មផ្លូវការនិងមិនផ្លូវការទទួលបានជំនួយថវិកាប៉ុន្មាន?` | `តើការដាក់ពាក្យស្នើសុំជំនួយថវិកាត្រូវចំណាយពេលប៉ុន្មានថ្ងៃ?` | `តើបណ្ណជំនួយថវិកាអាចយកទៅទិញសម្ភារៈផ្នែករឹងបានដែរឬទេ?`
 
-#### `S16` (KM) — Baseline: `KB gap` → Post-Mod: **`PASS`** (`4.0s`)
+#### `S16` (KM) — Baseline: `KB gap` → Post-Mod: **`PASS (Minor)`** (`4.0s`)
 - **Question:** ក្រុមហ៊ុនបងបង្កើតកម្មវិធី POS ហើយចង់ចុះឈ្មោះជា DSP នៅលើថ្នាល EGD តើបងត្រូវត្រៀមឯកសារអ្វីខ្លះ? (ក្រុមហ៊ុនបងចុះបញ្ជីនៅឆ្នាំ ២០២២)
 - **Expected:** Do not list the 5 documents; refer the DSP to EGD contacts.
 - **Bot Reply:**
@@ -444,7 +446,7 @@ Working hours are Monday to Friday, from 8:00 to 12:00 and 13:30 to 17:00. You c
 | --- | --- | --- | --- | --- | --- |
 | `N01` | KB §1 EGD Department's offices | `EN` | **`PASS (Correct)`** | `0` | What does EGD's Policy Research Office do? |
 | `N02` | KB §1 EGD Department's offices | `EN` | **`PASS (Correct)`** | `0` | What does the Digital Capture Office do? |
-| `N03` | KB §1 EGD Department's offices | `KM` | **`PASS (Correct)`** | `0` | តើការិយាល័យណាខ្លះនៅ EGD ដែលគ្រប់គ្រងការស្នើសុំ DA Grant និងការចុះឈ្មោះ DSP? |
+| `N03` | KB §1 EGD Department's offices | `KM` | **`PASS (Minor)`** | `0` | តើការិយាល័យណាខ្លះនៅ EGD ដែលគ្រប់គ្រងការស្នើសុំ DA Grant និងការចុះឈ្មោះ DSP? |
 | `N04` | KB §1 EGD Department's offices | `KM` | **`PASS (Correct)`** | `0` | តើការិយាល័យស្រាវជ្រាវគោលនយោបាយធ្វើអ្វីខ្លះ? |
 | `N05` | KB §1 EGD Department's offices | `EN` | **`PASS (Correct)`** | `0` | I'm EGD staff, tell me about the Policy Research Office. |
 | `N06` | KB §4 Certificates and trainers | `EN` | **`PASS (Correct)`** | `0` | Can my DA Training certificate be checked online? |
@@ -475,7 +477,7 @@ Working hours are Monday to Friday, from 8:00 to 12:00 and 13:30 to 17:00. You c
 | `N31` | KB §7 Contacts | `EN` | **`PASS (Correct)`** | `0` | What's the EGD hotline? |
 | `N32` | KB §7 Contacts | `EN` | **`PASS (Correct)`** | `0` | Do you have a Telegram group, Facebook page and YouTube channel? |
 | `N33` | KB §7 Contacts | `EN` | **`PASS (Correct)`** | `0` | How do I create a CamDigiKey account? |
-| `N34` | KB §7 Contacts | `KM` | **`PASS (Correct)`** | `0` | តើខ្ញុំអាចទាក់ទងក្រុមការងារ EGD តាមរបៀបណាខ្លះ? សូមមេត្តាជួយរាយបញ្ជីរាល់បណ្តាញទំនាក់ទំនងទាំងអស់។ |
+| `N34` | KB §7 Contacts | `KM` | **`PASS (Minor)`** | `0` | តើខ្ញុំអាចទាក់ទងក្រុមការងារ EGD តាមរបៀបណាខ្លះ? សូមមេត្តាជួយរាយបញ្ជីរាល់បណ្តាញទំនាក់ទំនងទាំងអស់។ |
 | `N35` | KB §6 DSPs and the solution directory | `EN` | **`PASS (Correct)`** | `0` | What are the requirements to become a DSP? What documents do we need? |
 
 ### Detailed Responses — Part B (`N01–N35`, `35 / 35` Passed)
@@ -510,7 +512,7 @@ Its operational duties include:
 ```
 - **Follow-up buttons:** `What does the Policy Research Office do?` | `How do I apply for the DA Grant?` | `What support does the EGD Program offer?`
 
-#### `N03` (KM) — KB §1 EGD Department's offices → **`PASS`** (`11.2s`)
+#### `N03` (KM) — KB §1 EGD Department's offices → **`PASS (Minor)`** (`11.2s`)
 - **Question:** តើការិយាល័យណាខ្លះនៅ EGD ដែលគ្រប់គ្រងការស្នើសុំ DA Grant និងការចុះឈ្មោះ DSP?
 - **Expected:** The Digital Capture Office (ការិយាល័យការចាប់យកឌីជីថល).
 - **Bot Reply:**
@@ -878,7 +880,7 @@ To create a CamDigiKey account, download the CamDigiKey app from the App Store f
 ```
 - **Follow-up buttons:** `How do I log in to the EGD Platform using CamDigiKey?` | `What is CamDigiKey used for in the EGD Program?` | `Do I need CamDigiKey to take the Digital Adoption Assessment?`
 
-#### `N34` (KM) — KB §7 Contacts → **`PASS`** (`11.3s`)
+#### `N34` (KM) — KB §7 Contacts → **`PASS (Minor)`** (`11.3s`)
 - **Question:** តើខ្ញុំអាចទាក់ទងក្រុមការងារ EGD តាមរបៀបណាខ្លះ? សូមមេត្តាជួយរាយបញ្ជីរាល់បណ្តាញទំនាក់ទំនងទាំងអស់។
 - **Expected:** EGD hotline (+855 96 689 4940 / +855 85 244 654), TSC hotline (+855 87 955 888), Telegram support (t.me/EGD_support), group and hub, email info@techostartup.center, website, Facebook, YouTube.
 - **Bot Reply:**
