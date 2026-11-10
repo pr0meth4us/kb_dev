@@ -9,6 +9,7 @@ sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DA-Program-Page-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
 DA6 of EGD's six DA Training activities. Target group: Street Vendors, Market Stalls, Self-Employed. The DA course for the informal economy: street vendors, market stalls and self-employed people. Informal enterprises' maximum DA Grant is $250 (or 1,000,000 Riels) (KB §5; Glossary 5.4); see [[da-grant]].
@@ -40,4 +41,4 @@ Part of [[da-training]]. Taught by [[trainers-and-digital-experts]]. Taking the 
 
 The Brief shortens the name to "DA for the Informal Economy". Glossary terms: Informal Economy (អ្នកសេដ្ឋកិច្ចក្រៅប្រព័ន្ធ, 7.3), Self-Employed Individual (បុគ្គលស្វ័យនិយោជន៍, 7.16).
 
-**Not in the sources:** this course's length, format, curriculum and venues.
+**Course logistics:** Course duration (hours/days), delivery format (in-person vs. online), detailed syllabus, and venue vary per cohort and are posted on the cohort's registration page when applications open.

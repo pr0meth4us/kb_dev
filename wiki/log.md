@@ -293,3 +293,23 @@ Results after fixes:
 - Out-of-scope question (company registration) → fallback.
 
 Started locally (long polling) as @egdgovkh_bot. No staff IDs are configured yet, so everyone is public.
+
+
+## [2026-11-08] feat(raw) | ingest baseline evaluation report, post-mod verification test suite, and KB additions
+
+Sources: `raw/EGD/2026/2026-11-05_Report_EGD-Chatbot-Test-Results.md`, `raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md`, `raw/EGD/2026/2026-11-09_Report_EGD-Chatbot-Post-Modification-Test-Results.md`, `raw/EGD/2026/2026-11-09_Report_EGD-Chatbot-Post-Modification-Test-Results.xlsx`.
+
+- **Baseline Ingestion:** Ingested the 100-question baseline evaluation report from Google Sheet `1A6i3xhsTnkss5FlFmRXl8x0oi_U-YQEEIj-A069FgKU`.
+- **Knowledge Additions:** Ingested official additions from Google Doc `1oyG_2rfJ28Tmz-OXkKhyQ12TStDh81HVaLzEUi5Vjyw`.
+- **Verification Suite:** Added 65-question post-modification verification suite and runner.
+
+## [2026-11-09] feat(wiki) | update wiki with new program details and fix conflicting facts
+
+Sources: `raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md`, ADB Project Data Sheet 55255-004, Prakas on TSC Offices 2024.
+
+- **Organisation & Governance:** Documented public duties of Policy Research Office (Article 15) and Digital Capture Office (Article 14) under Prakas on TSC Offices 2024 on `wiki/organisation/egd-department.md`. Documented ADB TA 10365-CAM governance ($1.35M JSF grant funded by Government of Japan via ADB) on `wiki/organisation/adb-msme-digital-adoption-project.md`. Clarified funding demarcation between core EGD (funded by SDF) and ADB TA.
+- **DA Grant & Reimbursement Workflow:** Documented the 4-step online Grant Reimbursement Request form on `wiki/processes/da-grant-application.md` and `wiki/programs/da-grant.md` (KHQR transfer in KHR only, 3-month prior usage rule, 7–10 working days approval).
+- **DAA, Training & LMS Infrastructure:** Documented live DAA structure on `wiki/programs/digital-adoption-assessment.md` (no-login access, 4 sections / 24 questions, 4 result tiers, URL `/ecosystem/enterprise/digital-adoption-assessment`). Documented self-paced E-Learning LMS (`https://lms.enterprisedigital.gov.kh/`) and verified that official certificates carry verify.gov.kh QR validation.
+- **DSP Solution Directory:** Added the complete 42-solution catalog across 8 categories with package pricing in KHR and voucher cap coverage on `wiki/programs/digital-solution-providers.md`. Documented that DSP status does not expire and foreign providers with Cambodian operations are eligible on `wiki/processes/dsp-registration.md`.
+- **Conflict Resolution & Encyclopedic Schema:** Settled all 9 historical source conflicts on `wiki/reference/source-conflicts.md`. Cleaned all section headers, prose, and reference tables across 36 wiki pages to adhere strictly to the clean Karpathy LLM-Wiki schema without patch annotations or diff-style commentary.
+- **Graph & Linter Verification:** Synced Neo4j graph to 48 `:EGDPage` nodes and 425 `LINKS_TO` relationships with BAAI/bge-small-en-v1.5 embeddings. Verified 0 lint errors via `scripts/lint_wiki.py`.

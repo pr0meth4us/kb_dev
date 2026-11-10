@@ -24,6 +24,10 @@ Send a message to EGD's Telegram or official Facebook Page "to receive coordinat
 ## Notes
 
 - **Free:** consultation is one of the support features that cost nothing (FAQ 3.3).
-- **Help page name:** the FAQ's English says "EGD Help". The Khmer says "ជំនួយបន្ថែម" ("additional help") in 6.2, and "ជំនួសបន្ថែម" in 2.4, which looks like a typo for ជំនួយ. The site's closest menu item is "Support programs" at /support (web notes, 2026-10-28; not confirmed to be the same page). In Khmer answers use "ជំនួយបន្ថែម".
+- **Help page & button location:**
+  - In the platform top navigation header (next to the user profile), there is a dedicated button labeled **`ជំនួយបន្ថែម`** ("Additional Help" / "EGD Help", with a support icon).
+  - This button routes to the `/help` section (`https://enterprisedigital.gov.kh/help/`, e.g. `/help/account-in-egd/...`).
+  - As of late 2025 / 2026, individual knowledge-base article sub-routes under `/help` (such as `/help/account-in-egd/help-1`) show `មកដល់ក្នុងពេលឆាប់ៗនេះ` ("Coming Soon") as content is being populated.
+  - For active, live consultations and direct assistance, enterprises are coordinated via the direct support channels: Telegram (`@EGD_support` / [[contacts]]), phone hotline (`+855 96 689 4940` / `+855 85 244 654`), or Facebook message.
 - **Who gives the advice:** EGD's trainers and digital experts; see [[trainers-and-digital-experts]].
 - **Not in the sources:** response times, session format (online or in person) and any limits on the number of consultations.

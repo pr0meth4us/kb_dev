@@ -3,19 +3,20 @@ title: Glossary (official English ↔ Khmer terms)
 type: reference
 audience: public
 status: draft
-date: 2026-09-11
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 sections). The chatbot must use these Khmer terms and no others.
+The official EGD English–Khmer terms (Glossary, 2026-09-11, updated to reflect current platform naming). The chatbot must use these Khmer terms and no others.
 
-**Source:** `raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md`, the Glossary named in Project Brief Appendix A.3 as the "Official Bilingual Terminology". Tables below are copied **verbatim** from it: don't edit a Khmer cell by hand; fix the source or record a variant under "Notes". Not yet management-approved (Project Brief Part 4, item 4.4 pending).
+**Sources:** `raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md` and `raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md` (which adds 1.6 Policy Research Office, 1.7 Digital Capture Office, DAA result levels, and updates 3.1, 4.9, and 4.10 to match the live platform).
 
-**Language rule** (Project Brief §1.3.2): the chatbot replies only in the user's language, never mixing Khmer and English; Khmer answers use only these terms. Technical terms such as SaaS, CRM and POS are written "Khmer (English)".
+**Language rule** (Project Brief §1.3.2): the chatbot replies only in the user's main language, never mixing Khmer and English; Khmer answers use only these terms, and never contain Thai or Lao characters. Technical terms such as SaaS, CRM and POS are written "Khmer (English)".
 
 ## 1. EGD Program and institutions (ពាក្យអំពីកម្មវិធី EGD និងស្ថាប័ន)
 
@@ -26,6 +27,8 @@ The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 se
 | 1.3 | Ministry of Economy and Finance (MEF) | ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ (ក.ស.ហ.) | The ministry that oversees the Techo Startup Center and the EGD Program. | ក្រសួងដែលត្រួតពិនិត្យមជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» និងកម្មវិធី EGD។ | [[ministry-of-economy-and-finance]] |
 | 1.4 | Skills Development Fund (SDF) | មូលនិធិអភិវឌ្ឍន៍ជំនាញ (SDF) | The fund that fully finances the EGD Program. | មូលនិធិដែលផ្តល់ថវិកាពេញលេញដល់កម្មវិធី EGD។ | [[skills-development-fund]] |
 | 1.5 | Enterprises Go Digital Department | នាយកដ្ឋានបរិវត្តកម្មឌីជីថលសហគ្រាស | The department under Techo Startup Center responsible for implementing the EGD Program. | នាយកដ្ឋានក្រោមមជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» ដែលទទួលបន្ទុកអនុវត្តកម្មវិធី EGD។ | [[egd-department]] |
+| 1.6 | Policy Research Office | ការិយាល័យស្រាវជ្រាវគោលនយោបាយ | EGD Department office that researches and analyses enterprise digital transformation and gives policy recommendations. | ការិយាល័យក្រោមនាយកដ្ឋានបរិវត្តកម្មឌីជីថលសហគ្រាស ដែលទទួលបន្ទុកស្រាវជ្រាវ ប្រមូល និងវិភាគទិន្នន័យ និងផ្តល់អនុសាសន៍គោលនយោបាយពាក់ព័ន្ធនឹងបរិវត្តកម្មឌីជីថលសហគ្រាស។ | [[egd-department]] |
+| 1.7 | Digital Capture Office | ការិយាល័យការចាប់យកឌីជីថល | EGD Department office that plans, delivers and monitors training, promotion and digital adoption support for enterprises, and partner-supported projects (also handles the DA Grant, DSP registration and the platform). | ការិយាល័យក្រោមនាយកដ្ឋានបរិវត្តកម្មឌីជីថលសហគ្រាស ដែលទទួលបន្ទុករៀបចំ និងអនុវត្តការបណ្តុះបណ្តាល ការផ្សព្វផ្សាយ និងការគាំទ្រការចាប់យកឌីជីថលសម្រាប់សហគ្រាស ព្រមទាំងគ្រប់គ្រងជំនួយថវិកា (DA Grant) ការចុះបញ្ជី DSP និងថ្នាល EGD។ | [[egd-department]] |
 
 ## 2. EGD Platform (ពាក្យអំពីថ្នាល EGD)
 
@@ -38,11 +41,15 @@ The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 se
 
 | No. | English term | Official Khmer term | Definition (English) | Definition (Khmer) | Page |
 |---|---|---|---|---|---|
-| 3.1 | Digital Adoption Assessment (DAA) | ការវាយតម្លៃកម្រិតចាប់យកឌីជីថល (DAA) | A free online tool on the EGD Platform that helps enterprises evaluate their current level of digital maturity in about 5 minutes. | ឧបករណ៍អនឡាញឥតគិតថ្លៃនៅលើថ្នាល EGD ដែលជួយសហគ្រាសវាយតម្លៃកម្រិតត្រៀមខ្លួនចាប់យកឌីជីថលបច្ចុប្បន្នក្នុងរយៈពេលប្រហែល ៥ នាទី។ | [[digital-adoption-assessment]] |
-| 3.2 | Digital Maturity | កម្រិតភាពចាស់ទុំឌីជីថល | The current level of an enterprise’s ability to use digital technology in its business operations. | កម្រិតសមត្ថភាពបច្ចុប្បន្នរបស់សហគ្រាសក្នុងការប្រើប្រាស់បច្ចេកវិទ្យាឌីជីថលសម្រាប់ប្រតិបត្តិការអាជីវកម្ម។ || [[digital-adoption-assessment]] |
-| 3.3 | Digital Readiness | កម្រិតត្រៀមខ្លួនចាប់យកឌីជីថល | How prepared an enterprise is to adopt digital solutions. | កម្រិតដែលសហគ្រាសត្រៀមខ្លួនរួចរាល់ក្នុងការចាប់យកដំណោះស្រាយឌីជីថល។ || [[digital-adoption-assessment]] |
+| 3.1 | Digital Adoption Assessment (DAA) | ការវាយតម្លៃកម្រិតនៃការចាប់យកឌីជីថល (DAA) | A free online tool on the EGD Platform that helps enterprises evaluate their current level of digital maturity and readiness in about 5 minutes (no login required). | ឧបករណ៍អនឡាញឥតគិតថ្លៃនៅលើថ្នាល EGD ដែលជួយសហគ្រាសវាយតម្លៃកម្រិតត្រៀមខ្លួនចាប់យកឌីជីថលបច្ចុប្បន្នក្នុងរយៈពេលប្រហែល ៥ នាទី។ | [[digital-adoption-assessment]] |
+| 3.2 | Digital Maturity | កម្រិតភាពចាស់ទុំឌីជីថល | The current level of an enterprise’s ability to use digital technology in its business operations. | កម្រិតសមត្ថភាពបច្ចុប្បន្នរបស់សហគ្រាសក្នុងការប្រើប្រាស់បច្ចេកវិទ្យាឌីជីថលសម្រាប់ប្រតិបត្តិការអាជីវកម្ម។ | [[digital-adoption-assessment]] |
+| 3.3 | Digital Readiness | កម្រិតត្រៀមខ្លួនចាប់យកឌីជីថល | How prepared an enterprise is to adopt digital solutions. | កម្រិតដែលសហគ្រាសត្រៀមខ្លួនរួចរាល់ក្នុងការចាប់យកដំណោះស្រាយឌីជីថល។ | [[digital-adoption-assessment]] |
 | 3.4 | Formal Enterprise | សហគ្រាសផ្លូវការ (ក្នុងប្រព័ន្ធ) | A registered business that has official business registration documents. | សហគ្រាសដែលបានចុះបញ្ជីអាជីវកម្មផ្លូវការ។ |  |
 | 3.5 | Informal Enterprise | សហគ្រាសក្រៅប្រព័ន្ធ | An unregistered business, such as street vendors, market stalls, or self-employed individuals. | សហគ្រាសដែលមិនទាន់ចុះបញ្ជីអាជីវកម្ម ដូចជាអ្នកលក់តាមផ្លូវ អ្នកលក់ក្នុងផ្សារ ឬបុគ្គលស្វ័យនិយោជន៍។ |  |
+| 3.6 | Non-Digital Level | កម្រិតមិនទាន់ប្រើប្រាស់ឌីជីថល | The lowest of the 4 DAA result levels. | កម្រិតទី ១ (ទាបបំផុត) នៃលទ្ធផលវាយតម្លៃ DAA។ | [[digital-adoption-assessment]] |
+| 3.7 | Basic Level | កម្រិតមូលដ្ឋាន | The second of the 4 DAA result levels. | កម្រិតទី ២ នៃលទ្ធផលវាយតម្លៃ DAA។ | [[digital-adoption-assessment]] |
+| 3.8 | Intermediate Level | កម្រិតមធ្យម | The third of the 4 DAA result levels. | កម្រិតទី ៣ នៃលទ្ធផលវាយតម្លៃ DAA។ | [[digital-adoption-assessment]] |
+| 3.9 | Advanced Level | កម្រិតខ្ពស់ | The highest of the 4 DAA result levels. | កម្រិតទី ៤ (ខ្ពស់បំផុត) នៃលទ្ធផលវាយតម្លៃ DAA។ | [[digital-adoption-assessment]] |
 
 ## 4. DA Training (ពាក្យអំពីវគ្គបណ្តុះបណ្តាល (DA Training))
 
@@ -56,29 +63,29 @@ The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 se
 | 4.6 | DA5 – Time to Go Digital | DA5 – តស់! ចាប់យកឌីជីថល! | A training course designed for all MSMEs and DSPs to enhance digital literacy and connect with digital solution providers. | វគ្គបណ្តុះបណ្តាលសម្រាប់សហគ្រាស និងអ្នកផ្តល់ដំណោះស្រាយឌីជីថល ដើម្បីបង្កើនអក្ខរកម្មឌីជីថល និងតភ្ជាប់ជាមួយអ្នកផ្តល់ដំណោះស្រាយ។ || [[da5-time-to-go-digital]] |
 | 4.7 | DA6 – Digital Adoption for the Informal Economy | DA6 – បរិវត្តកម្មឌីជីថលសម្រាប់សេដ្ឋកិច្ចក្រៅប្រព័ន្ធ | A training course specifically for street vendors, market stalls, and self-employed individuals in the informal economy. | វគ្គបណ្តុះបណ្តាលជាពិសេសសម្រាប់អ្នកលក់តាមផ្លូវ អ្នកលក់ក្នុងផ្សារ និងបុគ្គលស្វ័យនិយោជន៍ក្នុងសេដ្ឋកិច្ចក្រៅប្រព័ន្ធ។ || [[da6-digital-adoption-for-the-informal-economy]] |
 | 4.8 | E-Learning | កម្មវិធីស្វ័យសិក្សា (E-Learning) | Self-paced online courses available 24/7 on the EGD Platform. | វគ្គសិក្សាអនឡាញដែលអ្នកសិក្សាអាចរៀនតាមល្បឿនផ្ទាល់ខ្លួន និងមានជូន ២៤ ម៉ោងនៅលើថ្នាល EGD។ | [[e-learning]] |
-| 4.9 | Digital Technology Capacity Training | វគ្គបណ្តុះបណ្តាលសមត្ថភាពបច្ចេកវិទ្យាឌីជីថល | A door-to-door digital training program designed to help entrepreneurs and MSMEs adopt digital technology in their business operations and marketing. | វគ្គបណ្តុះបណ្តាលឌីជីថលតាមផ្ទះ ដែលជួយសហគ្រិន និងសហគ្រាសធុនមីក្រូ តូច និងមធ្យម ចាប់យកបច្ចេកវិទ្យាឌីជីថលក្នុងប្រតិបត្តិការ និងការធ្វើទីផ្សារ។ || [[digital-technology-capacity-training]] |
-| 4.10 | Tourism Digital Adoption Initiative in Cambodia | គំនិតផ្តួចផ្តើមចាប់យកឌីជីថលក្នុងវិស័យទេសចរណ៍នៅកម្ពុជា | A program that aims to improve the competitiveness of the private sector by supporting MSMEs in the tourism sector to adopt digital technologies, innovation, and diversification. | កម្មវិធីដែលមានគោលបំណងពង្រឹងសមត្ថភាពប្រកួតប្រជែងរបស់វិស័យឯកជន តាមរយៈការគាំទ្រសហគ្រាសធុនមីក្រូ តូច និងមធ្យម ក្នុងវិស័យទេសចរណ៍ ឱ្យចាប់យកបច្ចេកវិទ្យាឌីជីថល នវានុវត្តន៍ និងការធ្វើពិពិធកម្ម។ || [[tourism-digital-adoption-initiative]] |
+| 4.9 | Digital Technology Capacity Training | ពង្រឹងសមត្ថភាពឌីជីថលសម្រាប់សហគ្រិន | A door-to-door digital training programme that helps entrepreneurs and MSMEs adopt digital technology in their operations and marketing. Separate from DA1–DA6. Khmer name as on the website; replaces earlier Glossary 4.9 (វគ្គបណ្តុះបណ្តាលសមត្ថភាពបច្ចេកវិទ្យាឌីជីថល). | វគ្គបណ្តុះបណ្តាលឌីជីថលតាមផ្ទះ ដែលជួយសហគ្រិន និងសហគ្រាសធុនមីក្រូ តូច និងមធ្យម ចាប់យកបច្ចេកវិទ្យាឌីជីថលក្នុងប្រតិបត្តិការ និងការធ្វើទីផ្សារ។ | [[digital-technology-capacity-training]] |
+| 4.10 | Tourism Digital Adoption Initiative | យុទ្ធនាការចាប់យកឌីជីថលសម្រាប់សហគ្រាសក្នុងវិស័យទេសចរណ៍ | A programme that supports tourism-sector MSMEs to adopt digital technology, innovation and diversification, to make the private sector more competitive. Separate from DA1–DA6. Khmer name as on the website; replaces earlier Glossary 4.10 (គំនិតផ្តួចផ្តើមចាប់យកឌីជីថលក្នុងវិស័យទេសចរណ៍នៅកម្ពុជា). | កម្មវិធីដែលមានគោលបំណងពង្រឹងសមត្ថភាពប្រកួតប្រជែងរបស់វិស័យឯកជន តាមរយៈការគាំទ្រសហគ្រាសធុនមីក្រូ តូច និងមធ្យម ក្នុងវិស័យទេសចរណ៍ ឱ្យចាប់យកបច្ចេកវិទ្យាឌីជីថល នវានុវត្តន៍ និងការធ្វើពិពិធកម្ម។ | [[tourism-digital-adoption-initiative]] |
 
 ## 5. DA Grant (ពាក្យអំពីជំនួយថវិកា (DA Grant))
 
 | No. | English term | Official Khmer term | Definition (English) | Definition (Khmer) | Page |
 |---|---|---|---|---|---|
 | 5.1 | Digital Adoption (DA) Grant | ជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល (DA Grant) | Financial support provided by the EGD Program to help enterprises purchase certified digital solutions and receive end-user training. | ជំនួយថវិកាដែលកម្មវិធី EGD ផ្តល់ជូនសហគ្រាស ដើម្បីទិញដំណោះស្រាយឌីជីថលដែលមានការទទួលស្គាល់ និងទទួលការបណ្តុះបណ្តាលអ្នកប្រើប្រាស់។ | [[da-grant]] |
-| 5.2 | Grant Voucher | បណ្ណជំនួយថវិកា (Grant Voucher) | The voucher form of the Digital Adoption Grant that enterprises use to pay for approved digital solutions. | ទម្រង់បណ្ណនៃជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល ដែលសហគ្រាសប្រើដើម្បីទូទាត់ដំណោះស្រាយឌីជីថលដែលបានអនុម័ត។ || [[da-grant]] |
-| 5.3 | Maximum Grant Amount (Formal) | ចំនួនជំនួយអតិបរមា (សហគ្រាសផ្លូវការ) | Up to $400 (or 1,600,000 Riels) for registered/formal enterprises. | រហូតដល់ ៤០០ ដុល្លារ (ឬ ១.៦០០.០០០ រៀល) សម្រាប់សហគ្រាសផ្លូវការ។ || [[da-grant]] |
-| 5.4 | Maximum Grant Amount (Informal) | ចំនួនជំនួយអតិបរមា (សហគ្រាសក្រៅប្រព័ន្ធ) | Up to $250 (or 1,000,000 Riels) for unregistered/informal enterprises. | រហូតដល់ ២៥០ ដុល្លារ (ឬ ១.០០០.០០០ រៀល) សម្រាប់សហគ្រាសក្រៅប្រព័ន្ធ។ || [[da-grant]] |
-| 5.5 | Voucher Validity Period | រយៈពេលសុពលភាពបណ្ណ | The Grant Voucher is valid for up to 12 months from the date of issuance. | បណ្ណជំនួយមានសុពលភាពរហូតដល់ ១២ ខែ គិតចាប់ពីថ្ងៃចេញ។ || [[da-grant]] |
-| 5.6 | Processing Time | រយៈពេលដំណើរការពាក្យស្នើសុំ | Maximum 2 working days for application processing. | រយៈពេលអនុម័តពាក្យស្នើសុំអតិបរមា ២ ថ្ងៃធ្វើការ។ || [[da-grant-application]] |
+| 5.2 | Grant Voucher | បណ្ណជំនួយថវិកា (Grant Voucher) | The voucher form of the Digital Adoption Grant that enterprises use to pay for approved digital solutions. | ទម្រង់បណ្ណនៃជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល ដែលសហគ្រាសប្រើដើម្បីទូទាត់ដំណោះស្រាយឌីជីថលដែលបានអនុម័ត។ | [[da-grant]] |
+| 5.3 | Maximum Grant Amount (Formal) | ចំនួនជំនួយអតិបរមា (សហគ្រាសផ្លូវការ) | Up to $400 (or 1,600,000 Riels) for registered/formal enterprises. | រហូតដល់ ៤០០ ដុល្លារ (ឬ ១.៦០០.០០០ រៀល) សម្រាប់សហគ្រាសផ្លូវការ។ | [[da-grant]] |
+| 5.4 | Maximum Grant Amount (Informal) | ចំនួនជំនួយអតិបរមា (សហគ្រាសក្រៅប្រព័ន្ធ) | Up to $250 (or 1,000,000 Riels) for unregistered/informal enterprises. | រហូតដល់ ២៥០ ដុល្លារ (ឬ ១.០០០.០០០ រៀល) សម្រាប់សហគ្រាសក្រៅប្រព័ន្ធ។ | [[da-grant]] |
+| 5.5 | Voucher Validity Period | រយៈពេលសុពលភាពបណ្ណ | The Grant Voucher is valid for up to 12 months from the date of issuance. | បណ្ណជំនួយមានសុពលភាពរហូតដល់ ១២ ខែ គិតចាប់ពីថ្ងៃចេញ។ | [[da-grant]] |
+| 5.6 | Processing Time | រយៈពេលដំណើរការពាក្យស្នើសុំ | Maximum 2 working days for application processing. | រយៈពេលអនុម័តពាក្យស្នើសុំអតិបរមា ២ ថ្ងៃធ្វើការ។ | [[da-grant-application]] |
 
 ## 6. Digital Solution Providers (DSP) (ពាក្យអំពីអ្នកផ្តល់ដំណោះស្រាយឌីជីថល (DSP))
 
 | No. | English term | Official Khmer term | Definition (English) | Definition (Khmer) | Page |
 |---|---|---|---|---|---|
 | 6.1 | Digital Solution Provider (DSP) | អ្នកផ្តល់ដំណោះស្រាយឌីជីថល (DSP) | A company, startup, or qualified provider that offers digital solutions to enterprises and is registered on the EGD Platform. | ក្រុមហ៊ុន ធុរកិច្ចថ្មី ឬអ្នកផ្តល់សេវាដែលមានគុណវុឌ្ឍិ ដែលផ្តល់ដំណោះស្រាយឌីជីថលជូនសហគ្រាស និងបានចុះបញ្ជីនៅលើថ្នាល EGD។ | [[digital-solution-providers]] |
-| 6.2 | Digital Solution | ដំណោះស្រាយឌីជីថល | Software or digital tools (such as POS, e-payment, accounting, e-commerce, etc.) that help enterprises improve their business operations. | សុហ្វវែរ ឬឧបករណ៍ឌីជីថល (ដូចជា POS, ការទូទាត់ប្រាក់តាមប្រព័ន្ធ, គណនេយ្យ, ពាណិជ្ជកម្មអេឡិចត្រូនិក ។ល។) ដែលជួយសហគ្រាសកែលម្អប្រតិបត្តិការអាជីវកម្ម។ || [[digital-solution-providers]] |
-| 6.3 | Certified / Verified DSP | DSP ដែលមានការទទួលស្គាល់ / បានផ្ទៀងផ្ទាត់ | A Digital Solution Provider that has been reviewed and approved by the EGD team to offer solutions on the Platform. | អ្នកផ្តល់ដំណោះស្រាយឌីជីថលដែលបានត្រួតពិនិត្យ និងអនុម័តដោយក្រុមការងារ EGD ដើម្បីផ្តល់ដំណោះស្រាយនៅលើថ្នាល។ || [[digital-solution-providers]] |
+| 6.2 | Digital Solution | ដំណោះស្រាយឌីជីថល | Software or digital tools (such as POS, e-payment, accounting, e-commerce, etc.) that help enterprises improve their business operations. | សុហ្វវែរ ឬឧបករណ៍ឌីជីថល (ដូចជា POS, ការទូទាត់ប្រាក់តាមប្រព័ន្ធ, គណនេយ្យ, ពាណិជ្ជកម្មអេឡិចត្រូនិក ។ល។) ដែលជួយសហគ្រាសកែលម្អប្រតិបត្តិការអាជីវកម្ម។ | [[digital-solution-providers]] |
+| 6.3 | Certified / Verified DSP | DSP ដែលមានការទទួលស្គាល់ / បានផ្ទៀងផ្ទាត់ | A Digital Solution Provider that has been reviewed and approved by the EGD team to offer solutions on the Platform. | អ្នកផ្តល់ដំណោះស្រាយឌីជីថលដែលបានត្រួតពិនិត្យ និងអនុម័តដោយក្រុមការងារ EGD ដើម្បីផ្តល់ដំណោះស្រាយនៅលើថ្នាល។ | [[digital-solution-providers]] |
 | 6.4 | DSP Registration | ការចុះបញ្ជី DSP | The process for companies to apply and register as a Digital Solution Provider on the EGD Platform. | ដំណើរការដែលក្រុមហ៊ុនស្នើសុំ និងចុះបញ្ជីជាអ្នកផ្តល់ដំណោះស្រាយឌីជីថលនៅលើថ្នាល EGD។ | [[dsp-registration]] |
-| 6.5 | Portfolio of Digital Solutions | បញ្ជីស្នាដៃ / បញ្ជីដំណោះស្រាយឌីជីថល | The list of digital products and services that a DSP offers on the EGD Platform. | បញ្ជីផលិតផល និងសេវាឌីជីថលដែល DSP ផ្តល់ជូននៅលើថ្នាល EGD។ || [[digital-solution-providers]] |
+| 6.5 | Portfolio of Digital Solutions | បញ្ជីស្នាដៃ / បញ្ជីដំណោះស្រាយឌីជីថល | The list of digital products and services that a DSP offers on the EGD Platform. | បញ្ជីផលិតផល និងសេវាឌីជីថលដែល DSP ផ្តល់ជូននៅលើថ្នាល EGD។ | [[digital-solution-providers]] |
 
 ## 7. Other general terms (ពាក្យទូទៅផ្សេងទៀត)
 
@@ -89,9 +96,9 @@ The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 se
 | 7.3 | Informal Economy | អ្នកសេដ្ឋកិច្ចក្រៅប្រព័ន្ធ | Unregistered businesses such as street vendors, market stalls, and self-employed individuals. | សហគ្រាសដែលមិនទាន់ចុះបញ្ជីអាជីវកម្ម ដូចជាអ្នកលក់តាមផ្លូវ អ្នកលក់ក្នុងផ្សារ និងបុគ្គលស្វ័យនិយោជន៍។ |  |
 | 7.4 | Digital Transformation | បរិវត្តកម្មឌីជីថល | The process of using digital technology to improve business operations, productivity, and competitiveness. | ដំណើរការប្រើប្រាស់បច្ចេកវិទ្យាឌីជីថល ដើម្បីកែលម្អប្រតិបត្តិការ ផលិតភាព និងសមត្ថភាពប្រកួតប្រជែងរបស់អាជីវកម្ម។ |  |
 | 7.5 | Digital Maturity | កម្រិតភាពចាស់ទុំឌីជីថល | The current level of an enterprise’s ability to use digital technology effectively. | កម្រិតសមត្ថភាពបច្ចុប្បន្នរបស់សហគ្រាសក្នុងការប្រើប្រាស់បច្ចេកវិទ្យាឌីជីថលប្រកបដោយប្រសិទ្ធភាព។ |  |
-| 7.6 | Approved | បានអនុម័ត | The application has been successfully approved. | ពាក្យស្នើសុំត្រូវបានអនុម័តដោយជោគជ័យ។ || [[da-grant-application]] |
-| 7.7 | Returned | ត្រូវបានត្រឡប់ | The application is incomplete or incorrect and can be corrected and resubmitted. | ពាក្យស្នើសុំមិនពេញលេញ ឬមិនត្រឹមត្រូវ ហើយអាចកែតម្រូវ និងដាក់ស្នើឡើងវិញបាន។ || [[da-grant-application]] |
-| 7.8 | Rejected | ត្រូវបានបដិសេធ | The application has been denied and the decision is final. | ពាក្យស្នើសុំត្រូវបានបដិសេធ ហើយការសម្រេចគឺជាចុងក្រោយ។ || [[da-grant-application]] |
+| 7.6 | Approved | បានអនុម័ត | The application has been successfully approved. | ពាក្យស្នើសុំត្រូវបានអនុម័តដោយជោគជ័យ។ | [[da-grant-application]] |
+| 7.7 | Returned | ត្រូវបានត្រឡប់ | The application is incomplete or incorrect and can be corrected and resubmitted. | ពាក្យស្នើសុំមិនពេញលេញ ឬមិនត្រឹមត្រូវ ហើយអាចកែតម្រូវ និងដាក់ស្នើឡើងវិញបាន។ | [[da-grant-application]] |
+| 7.8 | Rejected | ត្រូវបានបដិសេធ | The application has been denied and the decision is final. | ពាក្យស្នើសុំត្រូវបានបដិសេធ ហើយការសម្រេចគឺជាចុងក្រោយ។ | [[da-grant-application]] |
 | 7.9 | Point of Sale (POS) | ប្រព័ន្ធគ្រប់គ្រងការលក់ (POS) | A digital system used to manage sales transactions at the point of sale. | ប្រព័ន្ធឌីជីថលដែលប្រើសម្រាប់គ្រប់គ្រងប្រតិបត្តិការលក់នៅចំណុចលក់។ |  |
 | 7.10 | E-payment | ការទូទាត់ប្រាក់តាមប្រព័ន្ធអេឡិចត្រូនិក | Digital payment systems that allow businesses to receive payments electronically. | ប្រព័ន្ធទូទាត់ប្រាក់ឌីជីថល ដែលអនុញ្ញាតឱ្យអាជីវកម្មទទួលការទូទាត់តាមប្រព័ន្ធអេឡិចត្រូនិក។ |  |
 | 7.11 | Digital Marketing | ការធ្វើទីផ្សារឌីជីថល | Using digital channels (Facebook, Google, Telegram, etc.) to promote products and services. | ការប្រើប្រាស់ឆានែលឌីជីថល (Facebook, Google, Telegram ។ល។) ដើម្បីផ្សព្វផ្សាយផលិតផល និងសេវាកម្ម។ |  |
@@ -100,52 +107,29 @@ The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 se
 | 7.14 | E-commerce | ពាណិជ្ជកម្មតាមប្រព័ន្ធអេឡិចត្រូនិក | Buying and selling products or services online. | ការទិញ និងលក់ផលិតផល ឬសេវាកម្មតាមអ៊ីនធឺណិត។ |  |
 | 7.15 | Logistics | ភស្តុភារ / ប្រព័ន្ធភស្តុភារ | Digital solutions for delivery, shipping, and supply chain management. | ដំណោះស្រាយឌីជីថលសម្រាប់ការដឹកជញ្ជូន និងគ្រប់គ្រងខ្សែច្រវាក់ផ្គត់ផ្គង់។ |  |
 | 7.16 | Self-Employed Individual | បុគ្គលស្វ័យនិយោជន៍ | A person who works for themselves (not employed by a company). | បុគ្គលដែលធ្វើការដោយខ្លួនឯង (មិនមែនជាបុគ្គលិកក្រុមហ៊ុន)។ |  |
-| 7.17 | One-Stop-Shop | ថ្នាលសេវាកម្មតែមួយកន្លែង (One-Stop-Shop) | The EGD Platform serves as a single place where enterprises can find information, assess digital readiness, find solutions, and access grants. | ថ្នាល EGD ជាកន្លែងតែមួយ ដែលសហគ្រាសអាចស្វែងរកព័ត៌មាន វាយតម្លៃកម្រិតត្រៀមខ្លួន រកដំណោះស្រាយ និងស្នើសុំជំនួយថវិកា។ || [[egd-platform]] |
-| 7.18 | Trainer / Digital Expert | អ្នកបង្ហាត់ / អ្នកជំនាញឌីជីថល | A qualified individual who provides training and shares knowledge on the use of digital solutions under the EGD Program. | បុគ្គលដែលមានគុណវុឌ្ឍិ ដែលផ្តល់ការបណ្តុះបណ្តាល និងចែករំលែកចំណេះដឹងអំពីការប្រើប្រាស់ដំណោះស្រាយឌីជីថល ក្រោមកម្មវិធី EGD។ || [[trainers-and-digital-experts]] |
+| 7.17 | One-Stop-Shop | ថ្នាលសេវាកម្មតែមួយកន្លែង (One-Stop-Shop) | The EGD Platform serves as a single place where enterprises can find information, assess digital readiness, find solutions, and access grants. | ថ្នាល EGD ជាកន្លែងតែមួយ ដែលសហគ្រាសអាចស្វែងរកព័ត៌មាន វាយតម្លៃកម្រិតត្រៀមខ្លួន រកដំណោះស្រាយ និងស្នើសុំជំនួយថវិកា។ | [[egd-platform]] |
+| 7.18 | Trainer / Digital Expert | អ្នកបង្ហាត់ / អ្នកជំនាញឌីជីថល | A qualified individual who provides training and shares knowledge on the use of digital solutions under the EGD Program. | បុគ្គលដែលមានគុណវុឌ្ឍិ ដែលផ្តល់ការបណ្តុះបណ្តាល និងចែករំលែកចំណេះដឹងអំពីការប្រើប្រាស់ដំណោះស្រាយឌីជីថល ក្រោមកម្មវិធី EGD។ | [[trainers-and-digital-experts]] |
 
 ## Notes on the glossary
 
-### Terms defined twice
+### Live platform naming alignments
 
-- **Digital Maturity** appears as 3.2 and 7.5 with the same Khmer term (កម្រិតភាពចាស់ទុំឌីជីថល) and slightly different English definitions ("…in its business operations" vs "…effectively"). No conflict in substance.
-- **Formal Enterprise** (3.4, សហគ្រាសផ្លូវការ (ក្នុងប្រព័ន្ធ)) and **Formal Economy** (7.2, សេដ្ឋកិច្ចក្នុងប្រព័ន្ធ / សហគ្រាសផ្លូវការ) share a definition. **Informal Enterprise** (3.5, សហគ្រាសក្រៅប្រព័ន្ធ) and **Informal Economy** (7.3, អ្នកសេដ្ឋកិច្ចក្រៅប្រព័ន្ធ, literally "informal economy actors") do too. Use the 3.x term for an enterprise and the 7.x term for the economy or sector.
-- **Digital Maturity vs Digital Readiness:** the Khmer DAA definition (3.1) says the tool assesses "កម្រិតត្រៀមខ្លួន…" (readiness), while the English says "digital maturity". The KB uses both words for the DAA (KB §3). Treat them as near-synonyms for the DAA, but keep each Khmer term with its own English word.
+- **1.6 & 1.7 (EGD Department offices):** Added **Policy Research Office** (`ការិយាល័យស្រាវជ្រាវគោលនយោបាយ`) and **Digital Capture Office** (`ការិយាល័យការចាប់យកឌីជីថល`).
+- **3.1 (Digital Adoption Assessment):** Official Khmer term is **`ការវាយតម្លៃកម្រិតនៃការចាប់យកឌីជីថល (DAA)`** (using `នៃការ` as on the live platform). Added the 4 DAA result levels (3.6–3.9): `កម្រិតមិនទាន់ប្រើប្រាស់ឌីជីថល`, `កម្រិតមូលដ្ឋាន`, `កម្រិតមធ្យម`, `កម្រិតខ្ពស់`.
+- **4.9 & 4.10 (Other training programmes):** **Digital Technology Capacity Training** is **`ពង្រឹងសមត្ថភាពឌីជីថលសម្រាប់សហគ្រិន`** and **Tourism Digital Adoption Initiative** is **`យុទ្ធនាការចាប់យកឌីជីថលសម្រាប់សហគ្រាសក្នុងវិស័យទេសចរណ៍`** (matching the live platform).
 
 ### Wording that differs elsewhere in the sources
 
-Other sources sometimes use different Khmer wording. The chatbot should use the Glossary form.
+Other sources sometimes use different Khmer wording. The chatbot should use the Glossary form above.
 
-| English | Glossary form | Variant seen | Where |
+| English | Official Glossary form | Variant seen | Where |
 |---|---|---|---|
-| DA Training | វគ្គបណ្តុះបណ្តាលចាប់យកឌីជីថល | វគ្គបណ្ដុះបណ្ដាលចាប់យកឌីជីថល; វគ្គបណ្ដុះបណ្ដាលការចាប់យកឌីជីថល (also written with a space before ការ) | FAQ (5 uses, never the Glossary form) |
-| DA Grant | ជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល | ជំនួយថវិកាគាំទ្រ; បណ្ណជំនួយថវិកាគាំទ្រ | FAQ 1.1, 1.4, 6.3 (never the Glossary form) |
-| E-Learning | កម្មវិធីស្វ័យសិក្សា (E-Learning) | ថ្នាលកម្មវិធីស្វ័យសិក្សា | FAQ (7 uses) |
-| Techo Startup Center | មជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» | same letters, “តេជោ” quotes; មជ្ឈមណ្ឌលបណ្ដុះ… with subscript ដ | FAQ 1.1, 1.3 (quotes); website (spelling) |
-| Trainer | អ្នកបង្ហាត់ / អ្នកជំនាញឌីជីថល | អ្នកបង្ហាត់បង្ហាញ | FAQ 2.2, 4.1, 4.2 |
-| Grant Voucher | បណ្ណជំនួយថវិកា | ប័ណ្ណជំនួយថវិកា (standard spelling with the ័ diacritic) | Grant Guidebook (Nov 2024) throughout |
-| DA Grant | ជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល | ជំនួយថវិកាគាំទ្រការធ្វើបរិវត្តកម្មឌីជីថលសហគ្រាស | Grant Guidebook title and ¶1; website grant page |
-| DA2 title | DA2 – ការចាប់ផ្តើមដំណើរបរិវត្តកម្មឌីជីថល | …បរិវត្តកម្មឌីជីថលសហគ្រាស | website, 2026-10-28 |
-| Digital Technology Capacity Training | វគ្គបណ្តុះបណ្តាលសមត្ថភាពបច្ចេកវិទ្យាឌីជីថល | ពង្រឹងសមត្ថភាពឌីជីថលសម្រាប់សហគ្រិន | website, 2026-10-28 |
-| Tourism Digital Adoption Initiative in Cambodia | គំនិតផ្តួចផ្តើមចាប់យកឌីជីថលក្នុងវិស័យទេសចរណ៍នៅកម្ពុជា | យុទ្ធនាការចាប់យកឌីជីថលសម្រាប់សហគ្រាសក្នុងវិស័យទេសចរណ៍ | website, 2026-10-28 |
-
-Some variants differ only in Unicode: subscript ត (្ត) vs subscript ដ (្ដ), or «» vs “” quotes. The Glossary writes បណ្តុះបណ្តាល with ្ត; the FAQ writes បណ្ដុះបណ្ដាល with ្ដ. They look almost the same but **don't match as strings**, so normalise ្ត/្ដ and the quote styles in any search or retrieval code.
-
-FAQ 1.4 calls the grant "Digital Adoption Grant" in English but uses "បណ្ណជំនួយថវិកាគាំទ្រ" in Khmer. That is close to the Glossary's term for the **Grant Voucher** (5.2, បណ្ណជំនួយថវិកា), not the grant itself.
-
-### Terms with no official Khmer term
-
-These terms are used in the sources but have no Glossary entry. Until the Glossary adds them, a Khmer answer has no approved term for them; flag rather than coin one.
-
-- Digital Economy and Business Committee. The Program Book uses គណៈកម្មាធិការសេដ្ឋកិច្ច និង ធុរកិច្ចឌីជីថល (គ.ស.ធ.ឌ.), which is not a Glossary term.
-- Enterprise Digital Transformation Center / Enterprises Go Digital Hub. The Program Book uses មជ្ឈមណ្ឌលបរិវត្តកម្មឌីជីថលសហគ្រាស.
-- The Program Book's five priority activities and its "Digital Solution Roadmap" / "Digital Training Roadmap"
-- Asian Development Bank (ADB) and the ADB-funded project (KB §1)
-- Cambodia Digital Economy and Society Policy Framework 2021–2035; Pentagonal Strategy – Phase I (KB §1)
-- Priority activities (KB §1)
-- Telegram Support (KB §7.1)
-- Eligible-solution categories added in the KB: Human Resource Management, ERP, Chatbot for MSMEs, Customer Service Management (KB §5)
-- DSP registration documents: Business Registration Certificate, Patent Tax Card, Enterprise Announcement, Professional license (KB §6)
-- Progress report and reimbursement (KB §5). The Guidebook uses របាយការណ៍វឌ្ឍនភាព and ទូទាត់សង (Reimburse), but they are not Glossary terms.
-- Digital Adoption Plan and Digital Solution Package (Grant Guidebook ¶2, ¶9)
-- General Conditions of the grant (Guidebook Annex 1)
-- SaaS and CRM, which the Brief (§1.3.2) cites as examples of the "Khmer (English)" format
+| Digital Adoption Assessment (DAA) | ការវាយតម្លៃកម្រិតនៃការចាប់យកឌីជីថល (DAA) | ការវាយតម្លៃកម្រិតចាប់យកឌីជីថល (DAA) | 2026-09-11 Glossary (superseded) |
+| Digital Technology Capacity Training | ពង្រឹងសមត្ថភាពឌីជីថលសម្រាប់សហគ្រិន | វគ្គបណ្តុះបណ្តាលសមត្ថភាពបច្ចេកវិទ្យាឌីជីថល | 2026-09-11 Glossary (superseded) |
+| Tourism Digital Adoption Initiative | យុទ្ធនាការចាប់យកឌីជីថលសម្រាប់សហគ្រាសក្នុងវិស័យទេសចរណ៍ | គំនិតផ្តួចផ្តើមចាប់យកឌីជីថលក្នុងវិស័យទេសចរណ៍នៅកម្ពុជា | 2026-09-11 Glossary (superseded) |
+| DA Training | វគ្គបណ្តុះបណ្តាលចាប់យកឌីជីថល (DA Training) | វគ្គបណ្ដុះបណ្ដាលចាប់យកឌីជីថល; វគ្គបណ្ដុះបណ្ដាលការចាប់យកឌីជីថល | FAQ |
+| DA Grant | ជំនួយថវិកាគាំទ្រការចាប់យកឌីជីថល (DA Grant) | ជំនួយថវិកាគាំទ្រ; បណ្ណជំនួយថវិកាគាំទ្រ; ជំនួយថវិកាគាំទ្រការធ្វើបរិវត្តកម្មឌីជីថលសហគ្រាស | FAQ; Grant Guidebook |
+| E-Learning | កម្មវិធីស្វ័យសិក្សា (E-Learning) | ថ្នាលកម្មវិធីស្វ័យសិក្សា | FAQ |
+| Techo Startup Center | មជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» | same letters, “តេជោ” quotes; មជ្ឈមណ្ឌលបណ្ដុះ… with subscript ដ | FAQ; website |
+| Trainer | អ្នកបង្ហាត់ / អ្នកជំនាញឌីជីថល | អ្នកបង្ហាត់បង្ហាញ | FAQ |
+| Grant Voucher | បណ្ណជំនួយថវិកា (Grant Voucher) | ប័ណ្ណជំនួយថវិកា | Grant Guidebook |

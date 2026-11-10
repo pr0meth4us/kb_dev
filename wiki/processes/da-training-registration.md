@@ -9,18 +9,19 @@ sources:
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DA-Program-Page-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
 How an enterprise registers for a DA Training course: CamDigiKey account → log in → choose a course and apply → approval, usually 1–2 working days.
 
-## Steps (KB §4; Brief §2.4, 2026-09-11)
+## Registration steps
 
 1. Create a CamDigiKey account. See [[camdigikey]].
-2. Log in to the EGD Platform (enterprisedigital.gov.kh). See [[egd-platform]].
-3. Select the desired DA Training course and submit the application.
-4. Wait for approval: **usually 1–2 working days**. Quote this exactly; see [[official-figures]].
+2. Log in to the EGD Platform (`enterprisedigital.gov.kh`) and visit the training section (`enterprisedigital.gov.kh/digital-adoption-program`).
+3. Click **`ចុះឈ្មោះឥឡូវនេះ!`** (*Register Now!*) on an open cohort and complete the 3-step form (Declaration → Application details → Select course) and submit.
+4. Wait for approval: **usually 1–2 working days**. See [[official-figures]].
 
-**Website for registration:** enterprisedigital.gov.kh/digital-adoption-program (KB §4; Brief §2.4).
+**Website for registration:** enterprisedigital.gov.kh/digital-adoption-program.
 
 ```
 CamDigiKey account → log in → choose course (open cohort) → submit → approval (usually 1–2 working days)
@@ -41,5 +42,4 @@ Take the [[digital-adoption-assessment]] first. It "is the first recommended ste
 
 - **Cost:** free (FAQ 3.3).
 - **Women:** women's participation is highly encouraged (KB §4).
-- **Approval statuses:** applications on the platform end as Approved (បានអនុម័ត), Returned (ត្រូវបានត្រឡប់: incomplete or incorrect, can be corrected and resubmitted) or Rejected (ត្រូវបានបដិសេធ: final) (Glossary 7.6–7.8).
-- **Not in the sources:** what information the application asks for, how users are told of approval, and what to do if approval takes longer than 2 working days. In that case, refer to [[contacts]].
+- **Approval statuses & certificate:** applications on the platform end as Approved (បានអនុម័ត), Returned (ត្រូវបានត្រឡប់: incomplete or incorrect, can be corrected and resubmitted) or Rejected (ត្រូវបានបដិសេធ: final) (Glossary 7.6–7.8). Upon completing the course, participants receive an official electronic certificate (**E-certificate**) online through the EGD Platform, verifiable at **`verify.gov.kh`**. If approval takes longer than 2 working days or for status enquiries, contact the EGD team via [[contacts]].

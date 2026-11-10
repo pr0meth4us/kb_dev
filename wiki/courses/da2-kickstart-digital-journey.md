@@ -9,6 +9,7 @@ sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DA-Program-Page-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
 DA2 of EGD's six DA Training activities. Target group: Early-stage Enterprises. For early-stage enterprises just starting to use digital tools.
@@ -40,4 +41,4 @@ Part of [[da-training]]. Taught by [[trainers-and-digital-experts]]. Taking the 
 
 The website title adds "សហគ្រាស" at the end (ការចាប់ផ្តើមដំណើរបរិវត្តកម្មឌីជីថលសហគ្រាស). Use the Glossary form.
 
-**Not in the sources:** this course's length, format, curriculum and venues.
+**Course logistics:** Course duration (hours/days), delivery format (in-person vs. online), detailed syllabus, and venue vary per cohort and are posted on the cohort's registration page when applications open.

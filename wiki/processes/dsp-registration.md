@@ -3,45 +3,45 @@ title: Registering as a Digital Solution Provider (DSP)
 type: process
 audience: public
 status: draft
-date: 2026-09-11
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DSP-Page-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-How a company registers as a DSP on the EGD Platform: prepare the documents, register in the DSP section, and wait for the EGD team's review and approval.
+How a company registers as a Digital Solution Provider (DSP) on the EGD Platform, how review works, and who to contact for current application requirements and documents.
 
 **Khmer:** DSP Registration (ការចុះបញ្ជី DSP), Glossary 6.4: "The process for companies to apply and register as a Digital Solution Provider on the EGD Platform."
 
-## Required documents (KB §6; Brief §2.6)
+## Application requirements and documents
 
-- Business Registration Certificate
-- Patent Tax Card
-- Enterprise Announcement (for companies registered after 14 June 2020)
-- Professional license (if any)
-- Company details and portfolio of digital solutions
+The application requirements in the Grant Guidebook and the document lists in earlier KB drafts do not apply in practice. Up-to-date eligibility requirements, criteria, and documentation are provided directly by the EGD team; applicants should contact the EGD team directly via [[contacts]]:
+- **EGD hotline:** `+855 96 689 4940 / +855 85 244 654` (TSC hotline: `+855 87 955 888`)
+- **Telegram Support:** `t.me/EGD_support`
+- **Email:** `info@techostartup.center`
 
-Quote the 14 June 2020 date exactly; see [[official-figures]]. The website (2026-10-28) lists the same five, calling the first a "commercial registration certificate" (វិញ្ញាបនបត្របញ្ចាក់ការចុះបញ្ជីពាណិជ្ជកម្ម). The KB's English names are used here.
+## Steps to apply on the platform
 
-## Steps (KB §6; Brief §2.6)
+1. Visit the EGD Platform (`enterprisedigital.gov.kh`) and log in with **[[camdigikey]]**. See [[egd-platform]].
+2. Go to the Digital Solution Provider section (`enterprisedigital.gov.kh/ecosystem/service-provider`).
+3. Click **Register** (`/ecosystem/service-provider/registration`) and submit the application.
+4. Wait for review and approval by the EGD team (handled by the **Digital Capture Office**, ការិយាល័យការចាប់យកឌីជីថល, of the [[egd-department]]).
 
-1. Visit the EGD Platform (enterprisedigital.gov.kh). See [[egd-platform]].
-2. Go to the Digital Solution Provider section (/ecosystem/service-provider).
-3. Click **Register** and submit the required information and documents. On the website both "ចុះឈ្មោះ" buttons lead to /ecosystem/service-provider/registration (web notes, 2026-10-28).
-4. Wait for review and approval by the EGD team.
+## Foreign companies and DSP status expiry
 
-```
-Prepare documents → DSP section → Register (submit info + documents) → EGD team review → approved (Certified / Verified DSP)
-```
+- **Can foreign companies register as DSPs?** **Yes**, as long as the company has **operations in Cambodia or a licensed registration in Cambodia**.
+- **Does DSP status expire?** **No.** Once approved, DSP status does **not** expire unless the DSP requests to leave / be removed from the platform.
+- **Profile management:** Registered DSPs log in via **[[camdigikey]]** and can update their profile at `/user/profile/info`.
 
-## Review
+## Approval timeframe and outcomes
 
-- **Approved DSPs:** once approved, a DSP becomes a "Certified / Verified DSP", reviewed and approved by the EGD team to offer solutions on the platform (Glossary 6.3).
-- **Possible outcomes:** Approved, Returned (correct and resubmit) or Rejected (final) (Glossary 7.6–7.8).
-- **Procedure:** the Grant Guidebook (GB ¶8) says DSP applications follow the "Standard Operating Procedure" for managing the EGD Program, or special rules. **That SOP isn't in `raw/`**, so the review steps, criteria and timeline can't be given.
+- **No fixed timeframe:** There is **no fixed timeframe** (no set service level) for DSP application review and approval.
+- **Checking application status:** For the status of a DSP application, refer the applicant to the EGD team through the contacts in [[contacts]].
+- **Possible outcomes:** Once reviewed, an application may be Approved (បានអនុម័ត), Returned (ត្រូវបានត្រឡប់, to correct and resubmit) or Rejected (ត្រូវបានបដិសេធ) (Glossary 7.6–7.8). Approved providers become a **Certified / Verified DSP** (DSP ដែលមានការទទួលស្គាល់ / បានផ្ទៀងផ្ទាត់, Glossary 6.3).
 
 ## Cost
 
@@ -49,11 +49,4 @@ Free: no enrolment fees or commissions are charged to DSPs (KB §1).
 
 ## After approval
 
-See [[digital-solution-providers]] for DSP obligations under the [[da-grant]] (contract with the business, data ownership, cooperation with monitoring) and the preferred qualities (voucher discounts, a Khmer UI).
-
-**Not in the sources:**
-- how long DSP review takes;
-- whether a login (e.g. CamDigiKey) is needed to register;
-- whether foreign companies may register.
-
-Refer these to [[contacts]]; see [[source-gaps]].
+Once approved and listed in the official Solution Directory (`enterprisedigital.gov.kh/ecosystem/service-provider/solution`), a DSP's solutions are eligible for [[da-grant]] voucher support. See [[digital-solution-providers]] for full details on the solution directory, package pricing in Khmer Riel (KHR), and DSP obligations under the [[da-grant-general-conditions]].

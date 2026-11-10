@@ -4,7 +4,7 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 
 ## Top level
 
-- [[overview]] — A one-page synthesis of the EGD Program: who runs it, what it offers each user group, how the pieces connect, and where the sources are still unsettled.
+- [[overview]] — A one-page synthesis of the EGD Program: who runs it, what it offers each user group, how the pieces connect, and key operational rules.
 - [[glossary]] — The official EGD English–Khmer terms (Glossary, 2026-09-11, 51 entries in 7 sections). The chatbot must use these Khmer terms and no others.
 
 ## organisation/
@@ -40,8 +40,8 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 - [[da4-strengthen-competitive-edge]] — DA4: for mature enterprises ready for advanced technology.
 - [[da5-time-to-go-digital]] — DA5: for all MSMEs and DSPs; digital literacy and links to solution providers.
 - [[da6-digital-adoption-for-the-informal-economy]] — DA6: for street vendors, market stalls and the self-employed.
-- [[digital-technology-capacity-training]] — Door-to-door digital training for entrepreneurs and MSMEs. Listed beside DA Training, but not one of DA1–DA6.
-- [[tourism-digital-adoption-initiative]] — Digital adoption programme for tourism MSMEs. Listed beside DA Training, but not one of DA1–DA6.
+- [[digital-technology-capacity-training]] — Door-to-door digital training for entrepreneurs and MSMEs. Separate from DA1–DA6; gives a certificate and qualifies participating enterprises for the DA Grant.
+- [[tourism-digital-adoption-initiative]] — Digital adoption programme for tourism MSMEs. Separate from DA1–DA6; gives a certificate and qualifies participating enterprises for the DA Grant.
 
 ## processes/
 
@@ -62,8 +62,8 @@ One line per page, grouped by folder. Internal pages are marked [INTERNAL].
 - [[da-grant-general-conditions]] — The eight General Conditions that every business owner and DSP accepts by applying for, or providing a solution under, the DA Grant. They cover TSC's limited liability, data ownership, conflicts of interest and disputes.
 - [[faq-map]] — Every question in the Public FAQ (2026-09-11; 22 questions in 7 sections), mapped to the wiki page that answers it, with notes on gaps and wording.
 - [[official-figures]] — Every official figure the chatbot may quote: amounts, durations, time limits and dates, with exact wording, Khmer form and sources.
-- [[source-gaps]] — Documents and facts the wiki needs but `raw/` doesn't contain.
-- [[source-conflicts]] — Places where the sources disagree, the interim answer the wiki gives, and what would settle each one.
+- [[source-gaps]] — Documents and facts settled, plus policy-mandated refusals and items to refer to EGD contacts.
+- [[source-conflicts]] — Places where the sources disagreed and how each one was resolved.
 
 ## queries/
 

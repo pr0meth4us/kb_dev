@@ -3,7 +3,7 @@ title: Digital Adoption Assessment (DAA)
 type: program
 audience: public
 status: draft
-date: 2026-09-11
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
@@ -11,28 +11,75 @@ sources:
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-Web-Compiled.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DAA-and-Enterprise-Pages-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-A free online self-assessment on the EGD Platform. It takes about 5 minutes and measures an enterprise's digital maturity and readiness. It is the recommended first step before DA Training or a DA Grant.
+A free online self-assessment on the EGD Platform. It takes about 5 minutes, requires no login, and measures an enterprise's digital maturity and readiness across 4 sections (24 scored questions, plus up to 7 follow-up questions). It is the recommended first step before DA Training or a DA Grant.
 
-**Khmer:** Digital Adoption Assessment (DAA) (ការវាយតម្លៃកម្រិតចាប់យកឌីជីថល (DAA)), Glossary 3.1. Related terms: Digital Maturity (កម្រិតភាពចាស់ទុំឌីជីថល, 3.2) and Digital Readiness (កម្រិតត្រៀមខ្លួនចាប់យកឌីជីថល, 3.3).
+**Khmer:** Digital Adoption Assessment (DAA) (ការវាយតម្លៃកម្រិតនៃការចាប់យកឌីជីថល (DAA)), Glossary 3.1 (updated to match the live platform). Related terms: Digital Maturity (កម្រិតភាពចាស់ទុំឌីជីថល, 3.2) and Digital Readiness (កម្រិតត្រៀមខ្លួនចាប់យកឌីជីថល, 3.3). Do not call it "Digital Readiness Assessment" (an older name retired on the live platform).
 
 ## What it is
 
-- **KB §3, Brief §2.3 (2026-09-11):** "a free online tool available on the EGD Platform. It helps enterprises quickly and simply evaluate their current level of digital maturity."
-- **FAQ 2.3:** "a self-assessment tool that helps enterprises evaluate their current digital capabilities, assess their adoption maturity and readiness levels, and identify gaps, building a strong foundation for choosing the right digital solutions for business operations."
+A free online adaptive self-assessment tool available on the EGD Platform (`enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment`). It helps enterprises evaluate their current digital capabilities, digital maturity level, and readiness to adopt digital solutions, identifying operational gaps as a foundation for selecting suitable digital tools. It is the recommended first step before applying for DA Training or a DA Grant.
 
-## Key features (KB §3; Brief §2.3)
+## Key features
 
 | Item | Details |
 |---|---|
+| Official URL | `enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment` |
 | Duration | Approximately 5 minutes |
 | Cost | Free |
-| Purpose | Assess the enterprise's digital readiness and maturity |
-| Result | Provides tailored recommendations based on industry type, enterprise size (formal/informal), and location |
-| Access | Available on the EGD Platform after logging in with CamDigiKey |
+| Login needed? | **No.** Opens directly without a CamDigiKey or platform login |
+| Languages | **Khmer and English** (every question has both versions; the site's language button switches between them) |
+| Structure & questions | **4 sections** with **24 scored questions in all**, plus **up to 7 follow-up questions** depending on answers |
+| Result levels | **4 levels** (lowest to highest): Non-Digital Level, Basic Level, Intermediate Level, Advanced Level |
+| Purpose | Assess the enterprise's Business Health, Digital Maturity Level and Digital Readiness Level |
 
-Quote the duration and cost exactly; see [[official-figures]]. Login: [[camdigikey]].
+Quote the duration ("Approximately 5 minutes") and cost ("Free") exactly; see [[official-figures]].
+
+## Login and Section 1 fields
+
+- **No CamDigiKey or platform login is required** to take the DAA (it opens directly without an account).
+- **Section 1 (General Information, 12 fields)** asks for:
+  - Name, gender, role
+  - Phone number (Telegram number preferred)
+  - Email (optional)
+  - Enterprise name in Khmer (and English, optional)
+  - Location, sector, sub-sector
+  - Number of staff and years of operation
+
+## Structure and questions
+
+The DAA has **4 sections** with **24 scored questions in all**, plus **up to 7 follow-up questions** that appear depending on answers:
+
+1. **General Information** — 12 fields
+2. **Business Health** — 9 questions
+3. **Digital Maturity** — 9 questions
+4. **Digital Readiness** — 6 questions
+
+## Result levels
+
+Results assign both a **Digital Maturity Level** and a **Digital Readiness Level** across **4 levels** (from lowest to highest):
+
+| Level (English) | Official Khmer name |
+|---|---|
+| **Non-Digital Level** | កម្រិតមិនទាន់ប្រើប្រាស់ឌីជីថល |
+| **Basic Level** | កម្រិតមូលដ្ឋាន |
+| **Intermediate Level** | កម្រិតមធ្យម |
+| **Advanced Level** | កម្រិតខ្ពស់ |
+
+## Result presentation and delivery
+
+After finishing the DAA, the result page shows:
+- **Business Health** situation
+- **Digital Maturity Level** and **Digital Readiness Level**
+- **Readiness by business area**
+- **Actionable Plan & Implementation Guidance**
+- **Recommended Courses**
+
+**Delivery and retaking:**
+- The **certificate and action plan** can be **downloaded as a PDF**, and are **sent to Telegram** (via the phone number provided) and **by email** (if an email address was given).
+- The page also provides a **result key** for reopening results and **retaking the assessment**, so the enterprise can track its progress over time.
 
 ## Who can use it (KB §3; Brief §2.3)
 
@@ -43,8 +90,8 @@ Glossary terms: Formal Enterprise (សហគ្រាសផ្លូវការ
 
 ## Benefits (KB §3; Brief §2.3)
 
-- Understand the current digital maturity level of the business.
-- Receive practical recommendations for the next steps in digital adoption.
+- Understand the current digital maturity and readiness levels of the business.
+- Receive practical recommendations, an actionable plan, and course recommendations for the next steps in digital adoption.
 - Prepare for [[da-training]] and [[da-grant]] applications.
 
 ## Where it fits
@@ -62,12 +109,5 @@ General data protection: [[platform-data-privacy]].
 
 ## Where to take it
 
-- **Official URL:** enterprisedigital.gov.kh/ecosystem/enterprise/digital-readiness-assessment (Brief §2.3; the Brief calls it the "Website for registration").
-- **Live status (web notes, 2026-10-28; medium confidence):**
-  - That URL shows a working start page. The button "ចាប់ផ្ដើមការវាយតម្លៃលើកដំបូង" ("start the first assessment") leads to `/daa/survey`, with an option to retake.
-  - The page says results come "in only 5 minutes" and that the questions adapt to sector, size and business unit.
-  - The home-page menu's "Digital readiness assessment" link goes to `/coming-soon`. That menu link looks stale; the assessment itself is live.
-
-> **Resolved conflict** ([[source-conflicts]] #3): the DAA is available. Give users the full URL above, not the home-page menu path.
-
-**Not in the sources:** the number of questions, the maturity levels and their names, and how results map to DA1–DA6 or grant eligibility. Don't describe the scoring.
+- **Official URL:** `enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment` (the older `/ecosystem/enterprise/digital-readiness-assessment` path redirects here).
+- The start button "ចាប់ផ្ដើមការវាយតម្លៃលើកដំបូង" ("start the first assessment") leads directly to `/daa/survey` without requiring a login, and includes an option to reopen or retake using a result key.

@@ -3,15 +3,16 @@ title: Trainers and digital experts
 type: program
 audience: public
 status: draft
-date: 2026-09-11
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-Qualified individuals who teach DA Training and advise enterprises under the EGD Program. What they do, what's required of them, and what they gain.
+Qualified individuals and registered DSPs who teach DA Training and advise enterprises under the EGD Program. What they do, how they are selected, what is required of them, and what they gain.
 
 **Khmer:** Trainer / Digital Expert (អ្នកបង្ហាត់ / អ្នកជំនាញឌីជីថល), Glossary 7.18. The FAQ uses "អ្នកបង្ហាត់បង្ហាញ" for trainer; use the Glossary form.
 
@@ -28,18 +29,21 @@ EGD has "specially selected trainers and digital experts" who:
 
 KB §4 adds that DA Training is delivered by "industry experts and certified DSPs".
 
-## For trainers: roles and requirements (FAQ 4.1)
+## How trainers are selected and how to apply (FAQ 4.1)
 
-**Roles:**
+- **Who can be a trainer:** Trainers are **DSPs registered on the EGD Platform** ([[digital-solution-providers]]) and **subject matter experts**.
+- **Selection criteria (FAQ 4.1):**
+  - Must show **technical proficiency**, **teaching expertise**, and **practical experience in the Cambodian business ecosystem**.
+  - Clear knowledge and work experience in digital technology or business management, and strong willingness and high ownership to help develop and support Cambodia's enterprise ecosystem.
+- **How to apply & login:**
+  - Candidates log in with **[[camdigikey]]**, **apply through the EGD Platform** at `/directory/trainers/registration` (directory: `enterprisedigital.gov.kh/directory/trainers`), and **are reviewed by the EGD team**.
+  - Registered trainers can update their profile information at `/user/profile/info`.
 
-- Training and capacity building: lead and teach DA Training sessions for MSMEs.
-- Providing consultation: practical advice on selecting and using digital technology.
-- Sharing experience: motivate and share new knowledge.
+## Roles (FAQ 4.1)
 
-**Requirements:**
-
-- Clear knowledge and work experience in digital technology or business management.
-- Strong willingness and high ownership to help develop and support Cambodia's enterprise ecosystem.
+- **Training and capacity building:** lead and teach DA Training sessions for MSMEs.
+- **Providing consultation:** practical advice on selecting and using digital technology.
+- **Sharing experience:** motivate and share new knowledge.
 
 ## What trainers gain (FAQ 4.2)
 
@@ -48,8 +52,6 @@ KB §4 adds that DA Training is delivered by "industry experts and certified DSP
 - **Impact:** direct contribution to capacity building and enterprise growth.
 - **EGD support:** collaboration, coordination and promotion from the EGD team during training activities.
 
-## How to register as a trainer
+## Remuneration
 
-**Not in the official sources.** The website has a trainer-registration page at /directory/trainers (web notes, 2026-10-28; lower confidence). Point users there and to [[contacts]], but don't describe a selection process, documents or fees. See [[source-gaps]].
-
-**Not in the sources:** whether trainers are paid, the selection criteria beyond FAQ 4.1, and whether trainers log in with CamDigiKey.
+Trainer remuneration is internal and not disclosed in public materials. For specific compensation enquiries, direct applicants to the EGD team via [[contacts]].

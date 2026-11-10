@@ -9,6 +9,7 @@ sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DA-Program-Page-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
 DA1 of EGD's six DA Training activities. Target group: All MSMEs. An introductory course for all MSMEs; the natural starting point for a business new to digital transformation.
@@ -36,4 +37,4 @@ Register on the EGD Platform with CamDigiKey while a cohort is open. Approval us
 
 Part of [[da-training]]. Taught by [[trainers-and-digital-experts]]. Taking the [[digital-adoption-assessment]] first helps confirm this is the right level.
 
-**Not in the sources:** this course's length, format, curriculum and venues.
+**Course logistics:** Course duration (hours/days), delivery format (in-person vs. online), detailed syllabus, and venue vary per cohort and are posted on the cohort's registration page when applications open.

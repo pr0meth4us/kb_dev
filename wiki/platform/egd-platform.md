@@ -3,7 +3,7 @@ title: EGD Platform (enterprisedigital.gov.kh)
 type: platform
 audience: public
 status: draft
-date: 2026-09-11
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
@@ -11,9 +11,10 @@ sources:
   - raw/EGD/2026/2026-09-11_Glossary_EGD-Chatbot-Glossary.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-Web-Compiled.md
   - raw/EGD/2026/2026-10-28_Notes_EGD-Website-DAA-and-Enterprise-Pages-Web-Compiled.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-The national one-stop digital platform of the EGD Program. It connects enterprises with certified Digital Solution Providers, digital experts, training and grants. Login is by CamDigiKey.
+The national one-stop digital platform of the EGD Program (`enterprisedigital.gov.kh`). It connects enterprises with certified Digital Solution Providers, digital experts, training and grants. Managed by the Digital Capture Office of the EGD Department.
 
 **Khmer:** EGD Platform (ថ្នាលបរិវត្តកម្មឌីជីថលសហគ្រាស (ថ្នាល EGD)), Glossary 2.1. One-Stop-Shop (ថ្នាលសេវាកម្មតែមួយកន្លែង (One-Stop-Shop)), Glossary 7.17.
 
@@ -21,7 +22,7 @@ The national one-stop digital platform of the EGD Program. It connects enterpris
 
 - **Brief §2.2 and KB §2 (2026-09-11):** "the national digital platform developed under the EGD Program". It serves as "a one-stop (digital) ecosystem that connects enterprises with certified Digital Solution Providers (DSPs) and digital experts based on each enterprise's level of digital readiness".
 - **Glossary 7.17:** a single place where enterprises can find information, assess digital readiness, find solutions and access grants.
-- **Website:** enterprisedigital.gov.kh. Run by the [[egd-department]] of [[techo-startup-center]] for the [[egd-program]].
+- **Website:** `enterprisedigital.gov.kh`. Run by the **Digital Capture Office** (ការិយាល័យការចាប់យកឌីជីថល) of the [[egd-department]] of [[techo-startup-center]] for the [[egd-program]].
 
 ## Why it was created
 
@@ -33,13 +34,12 @@ It addresses "three key challenges commonly faced by Cambodian enterprises" (KB 
 
 ## Main functions for enterprises (KB §2; Brief §2.2)
 
-- Conduct the [[digital-adoption-assessment]] (DAA).
-- Apply for [[da-training]] courses.
-- Apply for the [[da-grant]].
-- Discover and connect with certified [[digital-solution-providers]]. FAQ 3.4: browse the DSP directory and profiles, filter by service type (e.g. business management systems, POS, digital marketing), then contact providers directly through the platform.
-- Access [[e-learning]] courses.
-
-The FAQ adds a fourth enterprise service: **expert consultation** through the platform's help page. See [[request-expert-consultation]].
+- Conduct the [[digital-adoption-assessment]] (DAA) at `enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment` (**no login required**).
+- Apply for [[da-training]] courses (`enterprisedigital.gov.kh/digital-adoption-program`).
+- Apply for the [[da-grant]] (`enterprisedigital.gov.kh/digital-adoption-grant`).
+- Discover and connect with certified [[digital-solution-providers]] and browse the official Solution Directory at `enterprisedigital.gov.kh/ecosystem/service-provider/solution` (42 approved solutions with package prices in KHR).
+- Access [[e-learning]] courses (24/7, with a certificate verifiable at `verify.gov.kh`).
+- Request **expert consultation** through the platform's help page (FAQ 2.4, 6.2; see [[request-expert-consultation]]).
 
 ## Key users (KB §2; Brief §2.2)
 
@@ -50,34 +50,29 @@ The FAQ adds a fourth enterprise service: **expert consultation** through the pl
 | Trainers / Digital Experts | Provide Training and Advisory Support |
 | Institutions & Partners | Facilitate and Support the Ecosystem |
 
-## Access
+## Access and Login
 
-- **Website:** enterprisedigital.gov.kh.
-- **Login:** requires a CamDigiKey account. See [[camdigikey]]. Sources: KB §2; Brief §2.2; Glossary 2.2. The site's enterprise page says the same (web notes, 2026-10-28).
+- **Website:** `enterprisedigital.gov.kh`.
+- **Login:** Platform features such as applying for [[da-training]] and the [[da-grant]] require a [[camdigikey]] account (KB §2; Brief §2.2; Glossary 2.2). However, the **[[digital-adoption-assessment]] (DAA) opens without a CamDigiKey or platform login**.
 - **First steps:** see [[getting-started-with-egd]].
 - **Problems using the platform:** see the technical-support steps on [[contacts]] (FAQ 5.1).
 
-## Site sections (website, 2026-10-28; lower confidence)
+## Official platform URLs
 
-These paths were read from the live site, not from the official documents. Use them to point users to a page, not as fact about features.
-
-| Section | Path | Official-doc URL |
+| Section | URL | Details |
 |---|---|---|
-| Enterprises | /ecosystem/enterprise | n/a |
-| Digital readiness assessment (DAA) | /ecosystem/enterprise/digital-readiness-assessment (home-page menu link goes to /coming-soon; see [[digital-adoption-assessment]]) | same (Brief §2.3) |
-| Digital Solution Providers | /ecosystem/service-provider | same (Brief §2.6) |
-| Find digital solutions | /ecosystem/service-provider/solution | n/a |
-| Digital adoption training | /digital-adoption-program | same (KB §4; Brief §2.4) |
-| Digital adoption grant | /digital-adoption-grant (not seen in the home-page menu) | same (KB §5; Brief §2.5) |
-| Support programs | /support | n/a |
-| Self-study training material | /resources/training-material | n/a |
-| Trainer registration | /directory/trainers | n/a |
-| Stakeholders | /ecosystem/stakeholder | n/a |
-| Events; blog | /resources/events; /resources/blog | n/a |
-| Archive: laws and regulations | /archive/laws-and-regulations | n/a |
-| Contact; privacy policy; terms | /contact; /policy; /terms | n/a |
-
-The enterprise page lists five "steps to digital transformation": assess readiness → find matching solutions and providers → choose products or services → receive DA training → receive financial and non-financial support. That puts training *after* choosing solutions, while the KB orders DAA → training → grant. Treat the KB order as authoritative.
+| Home | `enterprisedigital.gov.kh` | EGD main platform portal |
+| Digital Adoption Assessment (DAA) | `enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment` | Free 5-minute self-assessment; no login required |
+| Digital Adoption Training (DA1–DA6) | `enterprisedigital.gov.kh/digital-adoption-program` | Cohort announcements and registration |
+| Digital Technology Capacity Training | `enterprisedigital.gov.kh/digital-adoption-program/3953-digital-technology-capacity-training-cohort-1` | Door-to-door training initiative cohort page |
+| Tourism Digital Adoption Initiative | `enterprisedigital.gov.kh/digital-adoption-program/4202-tourism-digital-adoption-initiative-in-cambodia-cohort-2` | Tourism sector campaign cohort page |
+| Digital Adoption Grant | `enterprisedigital.gov.kh/digital-adoption-grant` | Grant voucher information (Guidebook PDF available) |
+| Digital Solution Providers (DSP) | `enterprisedigital.gov.kh/ecosystem/service-provider` | DSP information and registration |
+| Official Solution Directory | `enterprisedigital.gov.kh/ecosystem/service-provider/solution` | Directory of approved solutions; pricing in KHR |
+| Enterprises | `enterprisedigital.gov.kh/ecosystem/enterprise` | Enterprise and self-employed account registration |
+| Self-study LMS | `https://lms.enterprisedigital.gov.kh/` | 24/7 self-paced video courses |
+| Trainer directory & registration | `enterprisedigital.gov.kh/directory/trainers` | Trainer directory and application portal |
+| User profile management | `enterprisedigital.gov.kh/user/profile/info` | Profile management for enterprises, DSPs, and trainers |
 
 ## Data security and privacy
 

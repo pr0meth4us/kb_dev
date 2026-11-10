@@ -3,72 +3,74 @@ title: Which EGD support can I get? (by user type)
 type: query
 audience: public
 status: draft
-date: 2026-10-28
+date: 2026-11-08
 sources:
   - raw/EGD/2026/2026-09-11_KnowledgeBase_EGD-Chatbot-Knowledge-Base.md
   - raw/EGD/2026/2026-09-11_Briefing_EGD-Chatbot-Project-Brief.md
   - raw/EGD/2026/2026-09-11_FAQ_EGD-Chatbot-Public-FAQ.md
   - raw/EGD/2024/2024-11_Guidebook_DA-Grant-Voucher-Scheme-Guideline.md
+  - raw/EGD/2026/2026-11-08_KnowledgeBase_EGD-Chatbot-Knowledge-Base-Additions.md
 ---
 
-A synthesis: for each kind of user, which EGD services apply, under what conditions, and where to start. Built from the programme pages; nothing here is new fact.
+A synthesis: for each kind of user, which EGD services apply, under what conditions, and where to start. Built from the programme pages.
 
 ## Summary matrix
 
-| User | DAA | DA Training | E-Learning | DA Grant | Expert consultation | Join as provider |
+| User | DAA (no login needed) | DA Training & other initiatives | E-Learning (24/7, certificate) | DA Grant | Expert consultation | Join as provider |
 |---|---|---|---|---|---|---|
-| Registered (formal) MSME | ✓ | ✓ DA1–DA5 by level | ✓ | ✓ up to $400 (or 1,600,000 Riels), if operating ≥ 6 months¹ | ✓ | — |
-| Unregistered (informal) business: street vendor, market stall | ✓ | ✓ DA6, plus DA1 and DA5 (all MSMEs) | ✓ | ✓ up to $250 (or 1,000,000 Riels), with proof of operation¹ | ✓ | — |
-| Self-employed individual | ✓ | ✓ DA6 | ✓ | Assessed case by case¹ | ✓ | — |
-| Startup or newly established business | ✓ | ✓ (welcome, FAQ 6.1) | ✓ | Formal track needs ≥ 6 months of operation¹ | ✓ | — |
-| Digital Solution Provider (DSP) | — | ✓ DA5 ("All MSMEs and DSPs") | — | Supplies solutions under grants; doesn't receive them | — | ✓ [[dsp-registration]] |
-| Trainer or digital expert | — | Teaches | — | — | Gives it | Trainer registration (/directory/trainers; process not in sources) |
+| Registered (formal) MSME (operating ≥ 6 months) | ✓ | ✓ DA1–DA5 by level (+ separate initiatives) | ✓ | ✓ up to $400 (or 1,600,000 Riels), regardless of size¹ | ✓ | — |
+| Newly registered business (operating < 6 months) | ✓ | ✓ (welcome, FAQ 6.1) | ✓ | Not yet eligible for formal $400 grant until ≥ 6 months of operation¹ | ✓ | — |
+| Unregistered (informal) business: street vendor, market stall, small shop | ✓ | ✓ DA6, plus DA1 and DA5 | ✓ | ✓ up to $250 (or 1,000,000 Riels), with proof of operation (no formal registration needed)¹ | ✓ | — |
+| Self-employed individual | ✓ | ✓ DA6 | ✓ | ✓ Informal tier ($250) / assessed case by case¹ | ✓ | — |
+| Digital Solution Provider (DSP) | — | ✓ DA5 ("All MSMEs and DSPs") | — | Supplies approved solutions listed in `/ecosystem/service-provider/solution` | — | ✓ [[dsp-registration]] |
+| Trainer or digital expert | — | Teaches (registered DSPs & subject matter experts) | — | — | Gives it | Apply on EGD Platform; reviewed by EGD team |
 
-¹ The 6-month rule, proof of operation and case-by-case assessment come from the 2024 Grant Guidebook (¶6, ¶9). The amounts come from the 2026 KB. See [[da-grant]].
+¹ Formal enterprises require a Certificate of Incorporation or One-Window licence and proof of at least 6 months of operation as of the application date (GB ¶9). Enterprise size (micro, small, medium) is not considered.
 
 Everything is **free** for enterprises and DSPs (KB §1; FAQ 3.3).
 
 ## By user
 
-### A registered small business
+### A registered business (micro, small, or medium)
 
-1. Log in with [[camdigikey]] and take the [[digital-adoption-assessment]]: approximately 5 minutes, free.
-2. Choose a DA course matching your level ([[da-training]]):
+1. Take the [[digital-adoption-assessment]] (DAA) at `enterprisedigital.gov.kh/ecosystem/enterprise/digital-adoption-assessment`: approximately 5 minutes, free, **no CamDigiKey login needed**.
+2. Log in with [[camdigikey]] and choose a course matching your level ([[da-training]]):
    - DA2 if you're just starting with digital tools;
    - DA3 if you already use some;
    - DA4 if you're mature and ready for advanced technology;
-   - DA1 and DA5 are open to all MSMEs.
+   - DA1 and DA5 are open to all MSMEs;
+   - Or join the separate initiatives [[digital-technology-capacity-training]] or [[tourism-digital-adoption-initiative]].
+   Approval for DA1–DA6 usually takes 1–2 working days. All issue certificates (DA Training and E-Learning certificates are verifiable at `verify.gov.kh`).
+3. Apply for the [[da-grant]] once you have been registered and operating for **at least 6 months** (with a Certificate of Incorporation or One-Window licence). The maximum is **$400 (or 1,600,000 Riels)**, regardless of whether the business is micro, small, or medium.
+4. After the voucher is issued, buy an approved solution from the [[digital-solution-providers]] directory (`enterprisedigital.gov.kh/ecosystem/service-provider/solution`), pay the DSP, submit your reimbursement request / progress reports, and get reimbursed in **Khmer Riel (KHR) via KHQR** within **7 to 10 working days** ([[da-grant-application]]).
 
-   Approval usually takes 1–2 working days.
-3. Apply for the [[da-grant]] if you've been registered and operating for at least 6 months. The maximum is $400 (or 1,600,000 Riels). Taking a DA course first is expected and shortens the application.
-4. Pick a certified solution from a [[digital-solution-providers]] listing, pay the DSP, report progress, and get reimbursed by TSC ([[da-grant-application]]).
-
-### An informal business
+### An informal (unregistered) business
 
 - **Training:** [[da6-digital-adoption-for-the-informal-economy]] is built for you; DA1 and DA5 are also open to all MSMEs.
-- **Grant:** up to $250 (or 1,000,000 Riels). You'll need to state clearly how the voucher will strengthen your business, and show proof that you operate. Examples include an informal-economy recognition certificate, a permit, or a certificate from the district one-window office (GB ¶9).
+- **Grant:** up to **$250 (or 1,000,000 Riels)**. You do **not** need formal business registration or 6 months of formal registration. You need a clear statement of purpose for using the voucher and supporting documents proving your business operates (e.g. an informal-economy recognition certificate, a permit, or a certificate from the sub-national one-window office, GB ¶9).
 
-### A business registered but very small (micro)
+### A business registered regardless of size (micro or medium)
 
-The tier follows **registration, not size**, so a registered micro enterprise is treated as formal ($400). This is the wiki's reading of Glossary 5.4 and GB ¶9; the KB's "Unregistered / Micro" label is ambiguous. Confirm with the EGD team if it matters ([[source-gaps]]).
+Enterprise size (micro, small, medium) is **not considered**. The tier follows registration documents only: both a registered micro enterprise and a medium enterprise with 120 staff receive the formal maximum of **$400 (or 1,600,000 Riels)**.
 
-### A software or digital-services company
+### A software or digital-services company (DSP)
 
-- **Register** as a DSP: Business Registration Certificate, Patent Tax Card, Enterprise Announcement (if registered after 14 June 2020), professional licence (if any), company details and portfolio. Then wait for EGD team review ([[dsp-registration]]).
-- **Preferred** for grant-funded sales: a discount for voucher users, a Khmer UI and MSME experience ([[digital-solution-providers]]).
-- **Grant sales:** the business owns the data. TSC doesn't vouch for your quality or settle your disputes ([[da-grant-general-conditions]]).
+- **Register as a DSP:** Apply at `enterprisedigital.gov.kh/ecosystem/service-provider`. The requirements in the Guidebook and older KB lists do not apply in practice; contact the EGD team via [[contacts]] for current requirements and review status ([[dsp-registration]]).
+- **Approval timeframe:** No fixed timeframe (no set service level).
+- **Listed solutions:** Every digital solution approved and listed at `enterprisedigital.gov.kh/ecosystem/service-provider/solution` is eligible for DA Grant support, with package prices in Khmer Riel (KHR) ([[digital-solution-providers]]).
 
 ### A digital expert who wants to teach
 
-- **Requirements:** clear knowledge and experience in digital technology or business management, and strong willingness to support the ecosystem (FAQ 4.1).
-- **Benefits:** networking, profile visibility as an official digital expert, and EGD support during training (FAQ 4.2).
-- **To register:** the site has a trainer-registration page; the process isn't in the sources ([[trainers-and-digital-experts]]).
+- **Who & requirements:** Trainers are DSPs registered on the EGD Platform and subject matter experts with technical proficiency, teaching expertise, and practical experience in Cambodia's business ecosystem (FAQ 4.1).
+- **How to apply:** Apply through the EGD Platform; applications are reviewed by the EGD team ([[trainers-and-digital-experts]]).
+- **Remuneration:** Trainer compensation is not disclosed in published sources ([[trainers-and-digital-experts]]).
 
 ## What EGD does *not* offer
 
-- **No direct cash.** The grant reimburses money already spent on an approved solution (FAQ 6.3; [[da-grant]]).
+- **No direct cash upfront, and no USD reimbursement.** The grant reimburses spending made after voucher issuance, in **Khmer Riel (KHR) only** via **KHQR** (FAQ 6.3; [[da-grant]]).
+- **No retroactive claims.** Software bought before the voucher is issued cannot be claimed.
 - **No hardware.** The grant can't pay for hardware, equipment, network infrastructure or human resources (KB §5).
-- **No recommended vendor.** TSC lists solutions but doesn't push any DSP (GB ¶18).
-- **No business registration help.** Registering a business or getting licences is outside EGD (see the separate MSME wiki).
+- **No recommended vendor.** TSC lists solutions in the official directory but doesn't push or recommend any specific DSP (GB ¶18).
+- **No business registration service.** Registering a company with the Ministry of Commerce is outside EGD's scope.
 
 Related: [[getting-started-with-egd]], [[overview]].
