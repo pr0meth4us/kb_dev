@@ -24,6 +24,17 @@ The [[egd-program]] is a free, non-profit national programme. It was designed in
 
 The programme is fully funded by the [[skills-development-fund]] and is currently implementing an ADB-funded MSME project for 2024–2028 ([[adb-msme-digital-adoption-project]]). It supports the "Digital Business" pillar of the [[digital-economy-society-policy-framework]] and Pentagon 5 of the [[pentagonal-strategy-phase-1]].
 
+## Priority activities (Program Book, 2023)
+
+When asked about the programme's priority activities or design, EGD has **five priority activities** (Program Book 2023 §3.3):
+1. **Business digitalisation:** digital readiness assessment ([[digital-adoption-assessment]]), digital solution roadmap, and digital training roadmap.
+2. **Sector research and planning:** enterprise digital transformation by sector.
+3. **Developing the Enterprises Go Digital Platform ([[egd-platform]]):** one-stop shop matching enterprises and pre-approved digital solutions.
+4. **Establishing an Enterprise Digital Transformation Center:** physical help desk for advice, training, and platform use.
+5. **A national dissemination and awareness campaign:** outreach strategy, platform content, and success stories.
+
+The live user-facing offer consists of the **three core supports** ([[da-training]], [[da-grant]], and [[egd-platform]]).
+
 ## The enterprise journey
 
 ```

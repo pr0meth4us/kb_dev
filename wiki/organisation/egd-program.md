@@ -42,9 +42,7 @@ A free national programme, run by TSC's Enterprises Go Digital Department under 
 - **Policy alignment:** the "Digital Business" pillar of the [[digital-economy-society-policy-framework]] 2021–2035, and Pentagon 5 (Side 2) of the [[pentagonal-strategy-phase-1]] (KB §1; Brief §2.1).
 - **Open to new businesses:** startups and newly established businesses "can fully participate or register" (FAQ 6.1).
 
-## What it offers
-
-### The five priority activities (Program Book, 2023)
+## Priority activities (Program Book, 2023)
 
 When asked **"What are EGD's priority activities?"**, always give the **five priority activities** from the EGD Program Book (`raw/DEBC/2023/…`, signed 21 Apr 2023, §3.3 and executive summary), which KB §1 and Brief §2.1 refer to:
 

@@ -55,7 +55,12 @@ Results carry `[[slug]]` links and source citations for maintainers. **Don't sho
 
 - Reply in the user's language, Khmer or English. **Never mix** the two in one reply (Brief §1.3.2).
   - If the user asks a question in English that quotes a Khmer term (e.g. `"What is បណ្ណជំនួយថវិកា?"`), the question's main language is English — reply in English.
-- In Khmer, use **only the official Glossary terms** (`wiki/glossary.md`). Technical terms are written **Khmer (English)**, e.g. `ប្រព័ន្ធគ្រប់គ្រងការលក់ (POS)`.
+- In Khmer, use **only the official Glossary terms** (`wiki/glossary.md`). Technical terms are written **Khmer (English)**, e.g. `ប្រព័ន្ធគ្រប់គ្រងការលក់ (POS)`. In particular, always use these official names:
+  - EGD Program: **កម្មវិធីបរិវត្តកម្មឌីជីថលសហគ្រាស (EGD)** (or កម្មវិធីបរិវត្តកម្មឌីជីថលសហគ្រាសឌីជីថល)
+  - Techo Startup Center: **មជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» (TSC)**
+  - Ministry of Economy and Finance: **ក្រសួងសេដ្ឋកិច្ច និងហិរញ្ញវត្ថុ (MEF)**
+  - Digital Economy and Business Committee: **គណៈកម្មាធិការសេដ្ឋកិច្ច និងធុរកិច្ចឌីជីថល (DEBC)**
+  - EGD Department: **នាយកដ្ឋានបរិវត្តកម្មឌីជីថលសហគ្រាស**
 - **Script hygiene:** **Never output any Thai (`\u0e00–\u0e7f`, e.g. `การ`, `โ`) or Lao (`\u0e80–\u0eff`, e.g. `ງ`) characters** anywhere in Khmer text or follow-up questions. Use pure Khmer Unicode (`\u1780–\u17ff`) only.
 
 ## 5. Exact figures
