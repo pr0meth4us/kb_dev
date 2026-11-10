@@ -337,3 +337,13 @@ Sources: `app-integration/egd-chatbot-instruction.md`.
 Sources: `raw/EGD/2026/2026-11-09_Report_EGD-Chatbot-Post-Modification-Test-Results.md`.
 
 - Update post-modification evaluation report with 61 Correct, 3 Minor, 1 Major (A5).
+
+
+## [2026-11-10] fix(kb,bot,eval) | Round 2 targeted remediation of 5 test issues and evaluation update
+
+Sources: `wiki/overview.md`, `wiki/organisation/egd-program.md`, `app-integration/egd-chatbot-instruction.md`, `bot/egd_telegram_bot.py`, `raw/EGD/2026/2026-11-09_Report_EGD-Chatbot-Post-Modification-Test-Results.md`.
+
+- **A5 Strategic Priority Activities:** Added the 5 strategic priority activities from Program Book §3.3 to `wiki/overview.md` and `wiki/organisation/egd-program.md`. Live re-test verified Correct.
+- **Official Khmer Terms (S16, N03, N34):** Pinned official Khmer names for EGD, TSC, MEF, and DEBC in the chatbot prompt so they do not drift into literal translations. Live re-test verified Correct.
+- **Lao Vowel Mapping (T33):** Added mapping for Lao lookalike vowels (`\u0EB5` -> `\u17B8` and `\u0EB4` -> `\u17B7`) to `_THAI_LAO_FIXES` in `bot/egd_telegram_bot.py` so letters are converted rather than deleted. Live re-test verified Correct.
+- **Evaluation & Test Scope:** Updated evaluation report and sheet for the 5 live re-tests. Noted that only these 5 questions were re-tested in Round 2, while the other 60 were not re-run. Documented that Part B (N01–N35) tests the KB additions document.

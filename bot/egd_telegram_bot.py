@@ -150,6 +150,8 @@ _THAI_LAO_FIXES = (
     ("า", "ា"),
     ("ะ", "ះ"),
     ("ำ", "ាំ"),
+    ("ີ", "ី"),  # Lao \u0eb5 -> Khmer \u17b8
+    ("ິ", "ិ"),  # Lao \u0eb4 -> Khmer \u17b7
 )
 
 
@@ -223,7 +225,10 @@ class Answerer:
             raise SystemExit("GEMINI_API_KEY is not set in .env")
         if not PUBLIC_TOKEN:
             raise SystemExit("MCP_AUTH_TOKEN_PUBLIC is not set in .env")
-        self.client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        self.client = genai.Client(
+            api_key=os.environ["GEMINI_API_KEY"],
+            http_options={"api_version": "v1beta"},
+        )
         self.history: dict[int, deque] = defaultdict(lambda: deque(maxlen=HISTORY_TURNS * 2))
 
     def reset(self, chat_id: int) -> None:
@@ -255,7 +260,7 @@ class Answerer:
                            "Office and Digital Capture Office ARE public on egd-department). Never share "
                            "internal approval workflows or internal-only information.")
                         + f"\n\nREPLY LANGUAGE FOR THIS MESSAGE: {language} only. "
-                        + ("Use the Khmer figure forms and official Glossary terms. Never output Thai or Lao letters."
+                        + ("Use the Khmer figure forms and official Glossary terms (e.g. EGD is \"កម្មវិធីបរិវត្តកម្មឌីជីថលសហគ្រាស (EGD)\", TSC is \"មជ្ឈមណ្ឌលបណ្តុះធុរកិច្ចថ្មី «តេជោ» (TSC)\"). Never output Thai or Lao letters."
                            if language == "Khmer" else
                            "Write the explanation and figures in English, e.g. "
                            "\"$250 (or 1,000,000 Riels)\", even if the question quotes a Khmer term or the pages show Khmer.")
